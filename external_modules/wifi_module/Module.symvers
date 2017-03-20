@@ -1,0 +1,2 @@
+0x311d0a34	wlan_module_exit	/home/taehyo.song/workspace/20151228_j120h_kernel/external_modules/wifi_module/sprdwl	EXPORT_SYMBOL_GPL
+0x986c266b	wlan_module_init	/home/taehyo.song/workspace/20151228_j120h_kernel/external_modules/wifi_module/sprdwl	EXPORT_SYMBOL_GPL

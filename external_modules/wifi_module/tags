@@ -1,0 +1,1016 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AKM_SUITE_8021X	wlan_cfg80211.h	22;"	d
+AKM_SUITE_FT_8021X	wlan_cfg80211.h	23;"	d
+AKM_SUITE_FT_PSK	wlan_cfg80211.h	24;"	d
+AKM_SUITE_PSK	wlan_cfg80211.h	21;"	d
+AKM_SUITE_WAPI_CERT	wlan_cfg80211.h	26;"	d
+AKM_SUITE_WAPI_PSK	wlan_cfg80211.h	25;"	d
+ALIGN_4BYTE	wlan_common.h	67;"	d
+ALL	wlan_wapi.h	67;"	d
+AP_CCMP	wlan_cfg80211.h	18;"	d
+AP_DEAUTH	wlan_cmd.h	/^	AP_DEAUTH = 0xc4,$/;"	e	enum:wlan_cmd_disconnect_reason
+AP_LEAVING	wlan_cmd.h	/^	AP_LEAVING = 0xc1,$/;"	e	enum:wlan_cmd_disconnect_reason
+AP_TKIP	wlan_cfg80211.h	17;"	d
+ARCH	Makefile	/^export ARCH ?= arm$/;"	m
+ARP_TYPE	wlan_wapi.h	73;"	d
+ASSERT	wlan_common.h	109;"	d
+BIT0	wlan_wapi.h	66;"	d
+BIT1	wlan_wapi.h	65;"	d
+BIT10	wlan_wapi.h	56;"	d
+BIT11	wlan_wapi.h	55;"	d
+BIT12	wlan_wapi.h	54;"	d
+BIT13	wlan_wapi.h	53;"	d
+BIT14	wlan_wapi.h	52;"	d
+BIT15	wlan_wapi.h	51;"	d
+BIT16	wlan_wapi.h	50;"	d
+BIT17	wlan_wapi.h	49;"	d
+BIT18	wlan_wapi.h	48;"	d
+BIT19	wlan_wapi.h	47;"	d
+BIT2	wlan_wapi.h	64;"	d
+BIT20	wlan_wapi.h	46;"	d
+BIT21	wlan_wapi.h	45;"	d
+BIT22	wlan_wapi.h	44;"	d
+BIT23	wlan_wapi.h	43;"	d
+BIT24	wlan_wapi.h	42;"	d
+BIT25	wlan_wapi.h	41;"	d
+BIT26	wlan_wapi.h	40;"	d
+BIT27	wlan_wapi.h	39;"	d
+BIT28	wlan_wapi.h	38;"	d
+BIT29	wlan_wapi.h	37;"	d
+BIT3	wlan_wapi.h	63;"	d
+BIT30	wlan_wapi.h	36;"	d
+BIT31	wlan_wapi.h	35;"	d
+BIT4	wlan_wapi.h	62;"	d
+BIT5	wlan_wapi.h	61;"	d
+BIT6	wlan_wapi.h	60;"	d
+BIT7	wlan_wapi.h	59;"	d
+BIT8	wlan_wapi.h	58;"	d
+BIT9	wlan_wapi.h	57;"	d
+BUILD	Makefile	/^BUILD ?= debug$/;"	m
+BYTES_PER_WORD	wlan_wapi.c	35;"	d	file:
+BYTE_LEN	wlan_wapi.c	36;"	d	file:
+CCMP	wlan_cfg80211.h	16;"	d
+CHAN2G	wlan_cfg80211.c	29;"	d	file:
+CHAN5G	wlan_cfg80211.c	38;"	d	file:
+CK_INCREMENT	wlan_wapi.c	43;"	d	file:
+CLEAR_BIT	wlan_common.h	70;"	d
+CMD_ADD_WHITELIST	wlan_common.h	94;"	d
+CMD_BLACKLIST_DISABLE	wlan_common.h	92;"	d
+CMD_BLACKLIST_ENABLE	wlan_common.h	91;"	d
+CMD_DEL_WHITELIST	wlan_common.h	95;"	d
+CMD_DISABLE_WHITELIST	wlan_common.h	97;"	d
+CMD_ENABLE_WHITELIST	wlan_common.h	96;"	d
+CMD_ITEM	wlan_cmd.c	22;"	d	file:
+CMD_WAIT_TIMEOUT	wlan_cmd.c	21;"	d	file:
+COMPILE_STRIP	5_1.mk	/^  COMPILE_STRIP := @-$(SC2331_CROSS_COMPILE_)strip -d --strip-unneeded$/;"	m
+COMPILE_STRIP	5_1.mk	/^  COMPILE_STRIP := echo$/;"	m
+CONFIG	Makefile	/^	CONFIG ?= $(shell uname -m)$/;"	m
+CONFIG	Makefile	/^	CONFIG ?= arm$/;"	m
+CONFIG_ITTIAM	Makefile	/^export CONFIG_ITTIAM := m$/;"	m
+CPU	Makefile	/^CPU ?= $(shell uname -m)$/;"	m
+CROSS_COMPILE	Makefile	/^	export CROSS_COMPILE ?= arm-none-linux-gnueabi-$/;"	m
+DEVICE_NAME	wlan_core.c	1659;"	d	file:
+ENG_MAC_ADDR_PATH	wlan_cfg80211.h	49;"	d
+ENG_MAC_ADDR_PATH	wlan_cfg80211.h	51;"	d
+ERROR	wlan_common.h	85;"	d
+ETHERNET_HDR_LEN	wlan_wapi.h	80;"	d
+ETH_ALEN	wlan_common.h	77;"	d
+ETH_PCAP	wlan_common.h	75;"	d
+ETH_PKT_TYPE_OFFSET	wlan_wapi.h	69;"	d
+EVENT_BUFFER_ALLOC	wlan_event_q.h	/^	EVENT_BUFFER_ALLOC = 1,$/;"	e	enum:__anon14
+EVENT_BUFFER_FREE	wlan_event_q.h	/^	EVENT_BUFFER_FREE  = 0,$/;"	e	enum:__anon14
+EVENT_BUFFER_STATUS_T	wlan_event_q.h	/^} EVENT_BUFFER_STATUS_T;$/;"	t	typeref:enum:__anon14
+EVENT_BUFFER_VALID	wlan_event_q.h	/^	EVENT_BUFFER_VALID = 2,$/;"	e	enum:__anon14
+EVENT_Q_ID_0	wlan_common.h	/^	EVENT_Q_ID_0   = 0,$/;"	e	enum:__anon18
+EVENT_Q_ID_1	wlan_common.h	/^	EVENT_Q_ID_1   = 1,$/;"	e	enum:__anon18
+EVENT_Q_ID_2	wlan_common.h	/^	EVENT_Q_ID_2   = 2,$/;"	e	enum:__anon18
+EVENT_Q_ID_3	wlan_common.h	/^	EVENT_Q_ID_3   = 3,$/;"	e	enum:__anon18
+EVENT_Q_ID_4	wlan_common.h	/^	EVENT_Q_ID_4   = 4,$/;"	e	enum:__anon18
+EVENT_Q_ID_T	wlan_common.h	/^}EVENT_Q_ID_T;$/;"	t	typeref:enum:__anon18
+EVENT_Q_MAX_ID	wlan_common.h	/^	EVENT_Q_MAX_ID = 5,$/;"	e	enum:__anon18
+EVENT_STATUS_SIZE	wlan_event_q.h	9;"	d
+EVENT_TOTAL_MEM_SIZE	wlan_event_q.h	8;"	d
+FK_PARAMETER_0	wlan_wapi.c	46;"	d	file:
+FK_PARAMETER_1	wlan_wapi.c	47;"	d	file:
+FK_PARAMETER_2	wlan_wapi.c	48;"	d	file:
+FK_PARAMETER_3	wlan_wapi.c	49;"	d	file:
+GROUP	wlan_cfg80211.h	45;"	d
+HIDDEN_SSID	wlan_common.h	98;"	d
+HOSTAP_CONF_FILE_NAME	wlan_cfg80211.h	47;"	d
+HOST_SC2331_CMD	wlan_cmd.h	/^	HOST_SC2331_CMD = 0,$/;"	e	enum:ITM_HOST_TROUT3_CMD_TYPE
+HOST_SC2331_PKT	wlan_cmd.h	/^	HOST_SC2331_PKT,$/;"	e	enum:ITM_HOST_TROUT3_CMD_TYPE
+HOST_SC2331_WAPI	wlan_cmd.h	/^	HOST_SC2331_WAPI,$/;"	e	enum:ITM_HOST_TROUT3_CMD_TYPE
+HOST_TO_MARLIN_CMD	wlan_cmd.h	/^        HOST_TO_MARLIN_CMD = 1,$/;"	e	enum:WLNPI_CMD_TYPE
+HW_READ_ERROR	wlan_fifo.h	13;"	d
+HW_RX_SIZE	wlan_common.h	87;"	d
+HW_TX_SIZE	wlan_common.h	86;"	d
+HW_WRITE_ERROR	wlan_fifo.h	12;"	d
+INCR_RING_BUFF_INDX	wlan_common.h	63;"	d
+IPV6_TYPE	wlan_wapi.h	71;"	d
+IP_HDR_LEN	wlan_wapi.h	82;"	d
+IP_HDR_OFFSET	wlan_wapi.h	81;"	d
+IP_PROT_OFFSET	wlan_wapi.h	83;"	d
+IP_TYPE	wlan_cfg80211.h	7;"	d
+IP_TYPE	wlan_wapi.h	72;"	d
+ITM_AP_MODE	wlan_cfg80211.h	/^	ITM_AP_MODE,$/;"	e	enum:wlan_mode
+ITM_AUTH_OPEN	wlan_cfg80211.h	9;"	d
+ITM_AUTH_SHARED	wlan_cfg80211.h	10;"	d
+ITM_A_RATE_NUM	wlan_cfg80211.c	82;"	d	file:
+ITM_CONNECTED	wlan_cfg80211.h	/^	ITM_CONNECTED$/;"	e	enum:wlan_state
+ITM_CONNECTING	wlan_cfg80211.h	/^	ITM_CONNECTING,$/;"	e	enum:wlan_state
+ITM_DISCONNECTED	wlan_cfg80211.h	/^	ITM_DISCONNECTED,$/;"	e	enum:wlan_state
+ITM_G_RATE_NUM	wlan_cfg80211.c	80;"	d	file:
+ITM_HOST_TROUT3_CMD_LIST	wlan_cmd.h	/^enum ITM_HOST_TROUT3_CMD_LIST$/;"	g
+ITM_HOST_TROUT3_CMD_TYPE	wlan_cmd.h	/^enum ITM_HOST_TROUT3_CMD_TYPE$/;"	g
+ITM_NONE_MODE	wlan_cfg80211.h	/^	ITM_NONE_MODE,$/;"	e	enum:wlan_mode
+ITM_NPI_MODE	wlan_cfg80211.h	/^	ITM_NPI_MODE,$/;"	e	enum:wlan_mode
+ITM_P2P_CLIENT_MODE	wlan_cfg80211.h	/^	ITM_P2P_CLIENT_MODE,$/;"	e	enum:wlan_mode
+ITM_P2P_GO_MODE	wlan_cfg80211.h	/^	ITM_P2P_GO_MODE,$/;"	e	enum:wlan_mode
+ITM_PMKID_LEN	wlan_cmd.h	8;"	d
+ITM_SCANNING	wlan_cfg80211.h	/^	ITM_SCANNING,$/;"	e	enum:wlan_state
+ITM_SCAN_ABORTING	wlan_cfg80211.h	/^	ITM_SCAN_ABORTING,$/;"	e	enum:wlan_state
+ITM_SCAN_TIMER_INTERVAL_MS	wlan_cfg80211.h	43;"	d
+ITM_STATION_MODE	wlan_cfg80211.h	/^	ITM_STATION_MODE,$/;"	e	enum:wlan_mode
+ITM_UNKOWN	wlan_cfg80211.h	/^	ITM_UNKOWN = 0,$/;"	e	enum:wlan_state
+KDIR	Makefile	/^KDIR ?= $(KDIR-$(CPU))$/;"	m
+KERNEL_DEBUG_LEVE	wlan_common.h	101;"	d
+KERNEL_DEBUG_LEVE	wlan_common.h	103;"	d
+KERNEL_VERSION	wlan_common.h	64;"	d
+KEYID_LEN	wlan_wapi.c	22;"	d	file:
+KEY_MULTIPLIER	wlan_wapi.c	44;"	d	file:
+LASTWT	wlan_fifo.h	/^	int            LASTWT;$/;"	m	struct:__anon9
+LINUX_VERSION_CODE	wlan_common.h	65;"	d
+LLTD_TYPE	wlan_wapi.h	76;"	d
+LOCAL_MODULE	5_1.mk	/^LOCAL_MODULE := sprdwl.ko$/;"	m
+LOCAL_MODULE_CLASS	5_1.mk	/^LOCAL_MODULE_CLASS := SHARED_LIBRARIES$/;"	m
+LOCAL_MODULE_PATH	5_1.mk	/^LOCAL_MODULE_PATH := $(PRODUCT_OUT)\/root\/lib\/modules$/;"	m
+LOCAL_MODULE_TAGS	5_1.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	5_1.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	5_1.mk	/^LOCAL_SRC_FILES := $(LOCAL_MODULE)$/;"	m
+LTE_CONCUR_REQ	wlan_cfg80211.h	55;"	d
+L_TRANSFORM_MACRO	wlan_wapi.c	132;"	d	file:
+MAC2STR	wlan_common.h	112;"	d
+MACSTR	wlan_common.h	111;"	d
+MAC_PCAP	wlan_common.h	76;"	d
+MAC_UDP_DATA_LEN	wlan_wapi.h	92;"	d
+MARLIN_TO_HOST_REPLY	wlan_cmd.h	/^        MARLIN_TO_HOST_REPLY,$/;"	e	enum:WLNPI_CMD_TYPE
+MAX_NUM_PMKIDS	wlan_cfg80211.h	39;"	d
+MAX_SCAN_FRAME_BUF_NUM	wlan_cfg80211.h	54;"	d
+MAX_SITES_FOR_SCAN	wlan_cfg80211.h	40;"	d
+MAX_TCP_SESSION	wlan_common.h	90;"	d
+MAX_TX_BUFFER_ID	wlan_common.h	68;"	d
+MAX_UDP_IP_PKT_LEN	wlan_wapi.h	93;"	d
+MAX_WORD_ALIGNMENT_BUFFER	wlan_event_q.h	7;"	d
+MIC_LEN	wlan_wapi.c	25;"	d	file:
+MK_LEN	wlan_wapi.c	39;"	d	file:
+MODULE	Makefile	/^MODULE:=sprdwl.ko$/;"	m
+NETIF_0_ID	wlan_common.h	/^	NETIF_0_ID   = 0,$/;"	e	enum:__anon19
+NETIF_1_ID	wlan_common.h	/^	NETIF_1_ID   = 1,$/;"	e	enum:__anon19
+NETIF_ID_T	wlan_common.h	/^}NETIF_ID_T;$/;"	t	typeref:enum:__anon19
+NONE	wlan_cfg80211.h	12;"	d
+NULL	wlan_wapi.h	31;"	d
+OK	wlan_common.h	84;"	d
+ONE_X_TYPE	wlan_wapi.h	74;"	d
+P2P_ASSOCRESP_IE	wlan_cfg80211.h	/^	P2P_ASSOCRESP_IE,$/;"	e	enum:WPS_TYPE
+P2P_ASSOC_IE	wlan_cfg80211.h	/^	P2P_ASSOC_IE,$/;"	e	enum:WPS_TYPE
+P2P_BEACON_IE	wlan_cfg80211.h	/^	P2P_BEACON_IE,$/;"	e	enum:WPS_TYPE
+P2P_BEACON_IE_HEAD	wlan_cfg80211.h	/^	P2P_BEACON_IE_HEAD,$/;"	e	enum:WPS_TYPE
+P2P_BEACON_IE_TAIL	wlan_cfg80211.h	/^	P2P_BEACON_IE_TAIL$/;"	e	enum:WPS_TYPE
+P2P_IE_ID	wlan_cfg80211.h	28;"	d
+P2P_IE_OUI_BYTE0	wlan_cfg80211.h	33;"	d
+P2P_IE_OUI_BYTE1	wlan_cfg80211.h	34;"	d
+P2P_IE_OUI_BYTE2	wlan_cfg80211.h	35;"	d
+P2P_IE_OUI_TYPE	wlan_cfg80211.h	36;"	d
+P2P_MODE_PATH	wlan_cfg80211.c	311;"	d	file:
+P2P_PROBERESP_IE	wlan_cfg80211.h	/^	P2P_PROBERESP_IE,$/;"	e	enum:WPS_TYPE
+PAIRWISE	wlan_cfg80211.h	46;"	d
+PARITY_MACRO	wlan_wapi.c	127;"	d	file:
+PKT_AGGR_NUM	wlan_common.h	88;"	d
+PN_LEN	wlan_wapi.c	24;"	d	file:
+PSM_PATH	wlan_cmd.c	986;"	d	file:
+P_FUNC_1	wlan_fifo.h	/^typedef  int (*P_FUNC_1)(unsigned short, unsigned char *,  unsigned int  );$/;"	t
+P_FUNC_2	wlan_fifo.h	/^typedef  int (*P_FUNC_2)(unsigned short, unsigned char *,  unsigned int *);$/;"	t
+P_FUNC_3	wlan_fifo.h	/^typedef  int (*P_FUNC_3)(unsigned char *,unsigned int);$/;"	t
+RATETAB_ENT	wlan_cfg80211.c	22;"	d	file:
+RD	wlan_fifo.h	/^	unsigned int   RD;$/;"	m	struct:__anon11
+RD	wlan_fifo.h	/^	unsigned int   RD;$/;"	m	struct:__anon9
+RESERVD_LEN	wlan_wapi.c	23;"	d	file:
+RK_LEN	wlan_wapi.c	40;"	d	file:
+RX_FIFO_BLOCK_NUM	wlan_fifo.h	15;"	d
+RX_FIFO_BLOCK_SIZE	wlan_fifo.h	16;"	d
+SC2331_ARCH_	5_1.mk	/^SC2331_ARCH_ := arm$/;"	m
+SC2331_ARCH_	5_1.mk	/^SC2331_ARCH_ := arm64$/;"	m
+SC2331_BUILD_MODE	5_1.mk	/^  SC2331_BUILD_MODE := user$/;"	m
+SC2331_BUILD_MODE	5_1.mk	/^  SC2331_BUILD_MODE := userdebug$/;"	m
+SC2331_CROSS_COMPILE_	5_1.mk	/^SC2331_CROSS_COMPILE_ := $(FIX_CROSS_COMPILE)$/;"	m
+SC2331_CROSS_COMPILE_	5_1.mk	/^SC2331_CROSS_COMPILE_ := aarch64-linux-android-$/;"	m
+SC2331_CROSS_COMPILE_	5_1.mk	/^SC2331_CROSS_COMPILE_ := arm-eabi-$/;"	m
+SC2331_HOST_RSP	wlan_cmd.h	/^	SC2331_HOST_RSP,$/;"	e	enum:ITM_HOST_TROUT3_CMD_TYPE
+SCAN_IE_LEN_MAX	wlan_cfg80211.h	38;"	d
+SDIO_ALIGN_SIZE	wlan_common.h	66;"	d
+SDIO_RX_GPIO	wlan_common.h	89;"	d
+SET_BIT	wlan_common.h	71;"	d
+SHA256_BLOCK_SIZE	wlan_wapi.c	32;"	d	file:
+SHA256_DIGEST_SIZE	wlan_wapi.c	33;"	d	file:
+SIOGETSSID	wlan_common.h	78;"	d
+SMS4_Run	wlan_wapi.c	/^static void SMS4_Run(unsigned int *key_store, unsigned char *plaintext,$/;"	f	file:
+SNAP_HDR_LEN	wlan_wapi.h	79;"	d
+SPRD_WLAN_COMMON_H_	wlan_common.h	2;"	d
+SRC	Makefile	/^SRC = wlan_core.c wlan_fifo.c wlan_msg_q.c wlan_cmd.c wlan_npi.c wlan_hostapd_conf.c wlan_cfg80211.c wlan_tcp.c wlan_wapi.c$/;"	m
+SSID_LEN_OFFSET	wlan_cfg80211.c	2502;"	d	file:
+STA_GC_EN_SLEEP	wlan_cmd.c	993;"	d	file:
+STA_GC_NO_SLEEP	wlan_cmd.c	994;"	d	file:
+TCP_ACK_WIN_H_SIZE	wlan_tcp.c	22;"	d	file:
+TCP_ACK_WIN_L_SIZE	wlan_tcp.c	23;"	d	file:
+TCP_ACK_WIN_TIMEOUT	wlan_tcp.c	21;"	d	file:
+TCP_SESSION_TIMEOUT	wlan_tcp.c	24;"	d	file:
+TCP_TYPE	wlan_wapi.h	78;"	d
+TEST_BIT	wlan_common.h	69;"	d
+TEXT_BYTES	wlan_wapi.c	41;"	d	file:
+TEXT_LEN	wlan_wapi.c	38;"	d	file:
+TEXT_MULTIPLIER	wlan_wapi.c	45;"	d	file:
+TKIP	wlan_cfg80211.h	15;"	d
+TOS_FIELD_OFFSET	wlan_wapi.h	90;"	d
+TX_FIFO_EMPTY	wlan_fifo.h	11;"	d
+TX_FIFO_FULL	wlan_fifo.h	10;"	d
+TX_MSG_HEAD_FILED	wlan_fifo.h	6;"	d
+TX_MSG_NEXT_MSG	wlan_fifo.h	8;"	d
+TX_MSG_UNIT_LEN	wlan_fifo.h	7;"	d
+UDP_DATA_OFFSET	wlan_wapi.h	86;"	d
+UDP_DST_PORT_OFFSET	wlan_wapi.h	88;"	d
+UDP_HDR_LEN	wlan_wapi.h	85;"	d
+UDP_HDR_OFFSET	wlan_wapi.h	84;"	d
+UDP_SRC_PORT_OFFSET	wlan_wapi.h	87;"	d
+UDP_TYPE	wlan_wapi.h	77;"	d
+VLAN_HDR_LEN	wlan_wapi.h	89;"	d
+VLAN_TID_FIELD_OFFSET	wlan_wapi.h	91;"	d
+VLAN_TYPE	wlan_wapi.h	75;"	d
+WAPI	wlan_cfg80211.h	19;"	d
+WAPI_TYPE	wlan_wapi.h	70;"	d
+WEP104	wlan_cfg80211.h	14;"	d
+WEP40	wlan_cfg80211.h	13;"	d
+WIFI_CMD_ADD_SOFTAP_BLACKLIST	wlan_cmd.h	/^	WIFI_CMD_ADD_SOFTAP_BLACKLIST,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_ADD_WHITELIST	wlan_cmd.h	/^	WIFI_CMD_ADD_WHITELIST,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_ASSERT	wlan_cmd.h	/^	WIFI_CMD_ASSERT,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_CANCEL_REMAIN_CHAN	wlan_cmd.h	/^	WIFI_CMD_CANCEL_REMAIN_CHAN,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_CHANGE_BEACON	wlan_cmd.h	/^	WIFI_CMD_CHANGE_BEACON,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_COMMON_DATA	wlan_cmd.h	/^	WIFI_CMD_COMMON_DATA,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_DEL_PMKSA	wlan_cmd.h	/^	WIFI_CMD_DEL_PMKSA,\/\/20--0x14$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_DEL_SOFTAP_BLACKLIST	wlan_cmd.h	/^	WIFI_CMD_DEL_SOFTAP_BLACKLIST,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_DEL_WHITELIST	wlan_cmd.h	/^	WIFI_CMD_DEL_WHITELIST,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_DISABLE_WHITELIST	wlan_cmd.h	/^	WIFI_CMD_DISABLE_WHITELIST,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_DISASSOC	wlan_cmd.h	/^	WIFI_CMD_DISASSOC,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_ENABLE_WHITELIST	wlan_cmd.h	/^	WIFI_CMD_ENABLE_WHITELIST,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_FLUSH_PMKSA	wlan_cmd.h	/^	WIFI_CMD_FLUSH_PMKSA,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_GET_IP	wlan_cmd.h	/^	WIFI_CMD_GET_IP,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_GET_MODE	wlan_cmd.h	/^	WIFI_CMD_GET_MODE = 1,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_GET_RSSI	wlan_cmd.h	/^	WIFI_CMD_GET_RSSI,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_GET_TXRATE_TXFAILED	wlan_cmd.h	/^	WIFI_CMD_GET_TXRATE_TXFAILED,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_KEY_ADD	wlan_cmd.h	/^	WIFI_CMD_KEY_ADD,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_KEY_DEL	wlan_cmd.h	/^	WIFI_CMD_KEY_DEL,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_KEY_SET	wlan_cmd.h	/^	WIFI_CMD_KEY_SET,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_MAX	wlan_cmd.h	/^	WIFI_CMD_MAX,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_MULTICAST_FILTER	wlan_cmd.h	/^	WIFI_CMD_MULTICAST_FILTER,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_NPI_GET	wlan_cmd.h	/^	WIFI_CMD_NPI_GET,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_NPI_MSG	wlan_cmd.h	/^	WIFI_CMD_NPI_MSG,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_P2P_IE	wlan_cmd.h	/^	WIFI_CMD_P2P_IE,\/\/30---0x1e$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_REGISTER_FRAME	wlan_cmd.h	/^	WIFI_CMD_REGISTER_FRAME,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_REMAIN_CHAN	wlan_cmd.h	/^	WIFI_CMD_REMAIN_CHAN,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_REQ_LTE_CONCUR	wlan_cmd.h	/^	WIFI_CMD_REQ_LTE_CONCUR,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SCAN_NOR_CHANNELS	wlan_cmd.h	/^	WIFI_CMD_SCAN_NOR_CHANNELS,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SDIO_CHN_FLUSH	wlan_cmd.h	/^	WIFI_CMD_SDIO_CHN_FLUSH = 47,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_AKM_SUITE	wlan_cmd.h	/^	WIFI_CMD_SET_AKM_SUITE,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_AUTH_TYPE	wlan_cmd.h	/^	WIFI_CMD_SET_AUTH_TYPE,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_BSSID	wlan_cmd.h	/^	WIFI_CMD_SET_BSSID,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_CHANNEL	wlan_cmd.h	/^	WIFI_CMD_SET_CHANNEL,\/\/10-0xA$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_CQM_RSSI	wlan_cmd.h	/^	WIFI_CMD_SET_CQM_RSSI,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_DEV_CLOSE	wlan_cmd.h	/^	WIFI_CMD_SET_DEV_CLOSE,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_DEV_OPEN	wlan_cmd.h	/^	WIFI_CMD_SET_DEV_OPEN,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_DISCONNECT	wlan_cmd.h	/^	WIFI_CMD_SET_DISCONNECT,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_ESSID	wlan_cmd.h	/^	WIFI_CMD_SET_ESSID,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_FRAG_THRESHOLD	wlan_cmd.h	/^	WIFI_CMD_SET_FRAG_THRESHOLD,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_FT_IE	wlan_cmd.h	/^	WIFI_CMD_SET_FT_IE,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_GROUP_CIPHER	wlan_cmd.h	/^	WIFI_CMD_SET_GROUP_CIPHER,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_PAIRWISE_CIPHER	wlan_cmd.h	/^	WIFI_CMD_SET_PAIRWISE_CIPHER,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_PMKSA	wlan_cmd.h	/^	WIFI_CMD_SET_PMKSA,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_PSK	wlan_cmd.h	/^	WIFI_CMD_SET_PSK,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_RTS_THRESHOLD	wlan_cmd.h	/^	WIFI_CMD_SET_RTS_THRESHOLD,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_SCAN	wlan_cmd.h	/^	WIFI_CMD_SET_SCAN,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_WPA_VERSION	wlan_cmd.h	/^	WIFI_CMD_SET_WPA_VERSION,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SET_WPS_IE	wlan_cmd.h	/^	WIFI_CMD_SET_WPS_IE,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_SLEEP	wlan_cmd.h	/^	WIFI_CMD_SLEEP,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_START_BEACON	wlan_cmd.h	/^	WIFI_CMD_START_BEACON,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_TX_MGMT	wlan_cmd.h	/^	WIFI_CMD_TX_MGMT,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_CMD_UPDATE_FT_IE	wlan_cmd.h	/^	WIFI_CMD_UPDATE_FT_IE,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_DIRECT_SUPPORT	wlan_cfg80211.h	4;"	d
+WIFI_DRV_WAPI	wlan_common.h	61;"	d
+WIFI_EVENT_CONNECT	wlan_cmd.h	/^	WIFI_EVENT_CONNECT = 128,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_CONNECT_AP	wlan_cmd.h	/^	WIFI_EVENT_CONNECT_AP,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_DISCONNECT	wlan_cmd.h	/^	WIFI_EVENT_DISCONNECT,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_MAX	wlan_cmd.h	/^	WIFI_EVENT_MAX,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_MGMT_DEAUTH	wlan_cmd.h	/^	WIFI_EVENT_MGMT_DEAUTH,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_MGMT_DISASSOC	wlan_cmd.h	/^	WIFI_EVENT_MGMT_DISASSOC,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_MLME_TX_STATUS	wlan_cmd.h	/^	WIFI_EVENT_MLME_TX_STATUS,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_NEW_STATION	wlan_cmd.h	/^	WIFI_EVENT_NEW_STATION,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_REMAIN_ON_CHAN_EXPIRED	wlan_cmd.h	/^	WIFI_EVENT_REMAIN_ON_CHAN_EXPIRED,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_REPORT_CQM_RSSI_HIGH	wlan_cmd.h	/^	WIFI_EVENT_REPORT_CQM_RSSI_HIGH,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_REPORT_CQM_RSSI_LOSS_BEACON	wlan_cmd.h	/^	WIFI_EVENT_REPORT_CQM_RSSI_LOSS_BEACON,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_REPORT_CQM_RSSI_LOW	wlan_cmd.h	/^	WIFI_EVENT_REPORT_CQM_RSSI_LOW,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_REPORT_FRAME	wlan_cmd.h	/^	WIFI_EVENT_REPORT_FRAME,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_REPORT_FT	wlan_cmd.h	/^	WIFI_EVENT_REPORT_FT,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_REPORT_MIC_FAIL	wlan_cmd.h	/^	WIFI_EVENT_REPORT_MIC_FAIL,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_REPORT_SCAN_FRAME	wlan_cmd.h	/^	WIFI_EVENT_REPORT_SCAN_FRAME,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_REPORT_VERSION	wlan_cmd.h	/^	WIFI_EVENT_REPORT_VERSION,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_SCANDONE	wlan_cmd.h	/^	WIFI_EVENT_SCANDONE,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WIFI_EVENT_SDIO_SEQ_NUM	wlan_cmd.h	/^	WIFI_EVENT_SDIO_SEQ_NUM,$/;"	e	enum:ITM_HOST_TROUT3_CMD_LIST
+WLAN_11R_FT_IE_ID	wlan_cfg80211.h	32;"	d
+WLAN_11R_MD_IE_ID	wlan_cfg80211.h	31;"	d
+WLAN_11R_SUPPORT	wlan_cfg80211.h	5;"	d
+WLAN_AKM_SUITE_FT_8021X	wlan_cfg80211.h	29;"	d
+WLAN_AKM_SUITE_FT_PSK	wlan_cfg80211.h	30;"	d
+WLAN_CMD_MEM_LEN	wlan_cmd.c	115;"	d	file:
+WLAN_CORE_SLEEP_TIME	wlan_core.c	770;"	d	file:
+WLAN_EID_VENDOR_SPECIFIC	wlan_cfg80211.c	235;"	d	file:
+WLAN_HEX_DBG	wlan_common.h	74;"	d
+WLAN_MAX_ID	wlan_common.h	/^	WLAN_MAX_ID  = 2,$/;"	e	enum:__anon19
+WLAN_MAX_KEY_INDEX	wlan_cfg80211.h	42;"	d
+WLAN_MAX_SSID_SIZE	wlan_cfg80211.h	41;"	d
+WLAN_NL_ATTR_COMMON_DRV_TO_USR	wlan_npi.c	/^	WLAN_NL_ATTR_COMMON_DRV_TO_USR,$/;"	e	enum:wlan_nl_attrs	file:
+WLAN_NL_ATTR_COMMON_USR_TO_DRV	wlan_npi.c	/^	WLAN_NL_ATTR_COMMON_USR_TO_DRV,$/;"	e	enum:wlan_nl_attrs	file:
+WLAN_NL_ATTR_MAX	wlan_npi.c	/^	WLAN_NL_ATTR_MAX,$/;"	e	enum:wlan_nl_attrs	file:
+WLAN_NL_ATTR_UNSPEC	wlan_npi.c	/^	WLAN_NL_ATTR_UNSPEC,$/;"	e	enum:wlan_nl_attrs	file:
+WLAN_NL_CMD_GET_INFO	wlan_npi.c	/^	WLAN_NL_CMD_GET_INFO,$/;"	e	enum:wlan_nl_commands	file:
+WLAN_NL_CMD_MAX	wlan_npi.c	/^	WLAN_NL_CMD_MAX,$/;"	e	enum:wlan_nl_commands	file:
+WLAN_NL_CMD_NPI	wlan_npi.c	/^	WLAN_NL_CMD_NPI,$/;"	e	enum:wlan_nl_commands	file:
+WLAN_NL_CMD_UNSPEC	wlan_npi.c	/^	WLAN_NL_CMD_UNSPEC,$/;"	e	enum:wlan_nl_commands	file:
+WLAN_NL_GENERAL_SOCK_ID	wlan_npi.c	25;"	d	file:
+WLAN_PATH_DBG	wlan_common.h	73;"	d
+WLAN_SYSTEM_DBG	wlan_common.h	72;"	d
+WLAN_THREAD_SLEPP_POLICE	wlan_common.h	60;"	d
+WLNPI_CMD_SET_WLAN_CAP	wlan_cmd.c	961;"	d	file:
+WLNPI_CMD_START	wlan_npi.c	48;"	d	file:
+WLNPI_CMD_TYPE	wlan_cmd.h	/^enum WLNPI_CMD_TYPE {$/;"	g
+WORD_ALIGN	wlan_event_q.h	5;"	d
+WORD_LEN	wlan_wapi.c	37;"	d	file:
+WPS_ASSOC_IE	wlan_cfg80211.h	/^	WPS_ASSOC_IE,$/;"	e	enum:WPS_TYPE
+WPS_REQ_IE	wlan_cfg80211.h	/^	WPS_REQ_IE=1,$/;"	e	enum:WPS_TYPE
+WPS_TYPE	wlan_cfg80211.h	/^enum WPS_TYPE$/;"	g
+WT	wlan_fifo.h	/^	unsigned int   WT;$/;"	m	struct:__anon11
+WT	wlan_fifo.h	/^	unsigned int   WT;$/;"	m	struct:__anon9
+WapiCryptoSms4	wlan_wapi.c	/^void WapiCryptoSms4(unsigned char *iv, unsigned char *key, unsigned char *input,$/;"	f
+WapiCryptoSms4Mic	wlan_wapi.c	/^void WapiCryptoSms4Mic(unsigned char *iv, unsigned char *key,$/;"	f
+XOR_MACRO	wlan_wapi.c	131;"	d	file:
+__EVENT_MANAGER_H__	wlan_event_q.h	2;"	d
+__ITM_CMD_H__	wlan_cmd.h	2;"	d
+__SPRD_WLAN_FIFO_H_	wlan_fifo.h	2;"	d
+__WAPI_H__	wlan_wapi.h	20;"	d
+__WLAN_CFG80211_H__	wlan_cfg80211.h	2;"	d
+__WLAN_MSG_Q_H__	wlan_msg_q.h	2;"	d
+__wlan_cfg80211_connect	wlan_cfg80211.c	/^static int __wlan_cfg80211_connect(struct wiphy *wiphy, struct net_device *ndev,$/;"	f	file:
+ack	wlan_cmd.h	/^	u8 ack;     \/* status *\/$/;"	m	struct:wlan_report_mgmt_tx_status
+ack_no_loss	wlan_tcp.c	/^static bool ack_no_loss(unsigned char *frame, int len)$/;"	f	file:
+ack_seq	wlan_common.h	/^	unsigned int   ack_seq;$/;"	m	struct:__anon26
+ack_time	wlan_common.h	/^	struct timeval ack_time;$/;"	m	struct:__anon26	typeref:struct:__anon26::timeval
+active	wlan_common.h	/^	int            active;$/;"	m	struct:__anon26
+addr	wlan_cmd.h	/^	unsigned char addr[6];$/;"	m	struct:wlan_cmd_set_bssid
+alloc_event	wlan_event_q.c	/^void  *alloc_event(m_event_t *mEventQ)$/;"	f
+alpha2	wlan_cfg80211.h	/^	char alpha2[2];$/;"	m	struct:__anon3
+android_wifi_priv_cmd	wlan_cfg80211.h	/^typedef struct android_wifi_priv_cmd$/;"	s
+android_wifi_priv_cmd	wlan_cfg80211.h	/^} android_wifi_priv_cmd;$/;"	t	typeref:struct:android_wifi_priv_cmd
+beacon_loss	wlan_common.h	/^	unsigned char                     beacon_loss;$/;"	m	struct:__anon27
+bit_map	wlan_common.h	/^	unsigned short bit_map;$/;"	m	struct:__anon17
+block_num	wlan_fifo.h	/^	unsigned int   block_num;$/;"	m	struct:__anon11
+block_size	wlan_fifo.h	/^	unsigned int   block_size;$/;"	m	struct:__anon11
+bssid	wlan_cfg80211.h	/^	unsigned char  bssid[6];$/;"	m	struct:__anon1
+bssid	wlan_cmd.h	/^	unsigned char bssid[ETH_ALEN];$/;"	m	struct:wlan_cmd_pmkid
+bssid	wlan_common.h	/^	unsigned char                     bssid[ETH_ALEN];$/;"	m	struct:__anon25
+buf	wlan_cfg80211.h	/^	char *buf;$/;"	m	struct:android_wifi_priv_cmd
+buf	wlan_cmd.h	/^	u8  buf[0];     \/* mgmt frame *\/$/;"	m	struct:wlan_report_mgmt_tx_status
+buf_scan_frame_t	wlan_cfg80211.h	/^}buf_scan_frame_t;$/;"	t	typeref:struct:__anon1
+buf_status	wlan_event_q.h	/^	unsigned char  *buf_status;  \/* Base address of buffer status array              *\/$/;"	m	struct:__anon15
+calculateenkey	wlan_wapi.c	/^static void calculateenkey(unsigned char *key, unsigned int *key_store)$/;"	f	file:
+can_sleep	wlan_common.h	/^	int                   can_sleep;$/;"	m	struct:__anon21
+cfg80211	wlan_common.h	/^	wlan_cfg80211_t                   cfg80211;$/;"	m	struct:__anon27
+cfg80211_report_connect_result	wlan_cfg80211.c	/^void cfg80211_report_connect_result(unsigned char vif_id, unsigned char *pData, int len)$/;"	f
+cfg80211_report_cqm_beacon_loss	wlan_cfg80211.c	/^void cfg80211_report_cqm_beacon_loss(unsigned char vif_id,$/;"	f
+cfg80211_report_cqm_high	wlan_cfg80211.c	/^void cfg80211_report_cqm_high(unsigned char vif_id,$/;"	f
+cfg80211_report_cqm_low	wlan_cfg80211.c	/^void cfg80211_report_cqm_low(unsigned char vif_id,$/;"	f
+cfg80211_report_disconnect_done	wlan_cfg80211.c	/^void cfg80211_report_disconnect_done(unsigned char vif_id, unsigned char *pData, int len)$/;"	f
+cfg80211_report_frame	wlan_cfg80211.c	/^void cfg80211_report_frame(unsigned char vif_id, unsigned char *data, unsigned short len)$/;"	f
+cfg80211_report_ft	wlan_cfg80211.c	/^void cfg80211_report_ft(unsigned char vif_id,$/;"	f
+cfg80211_report_mgmt_deauth	wlan_cfg80211.c	/^void cfg80211_report_mgmt_deauth(unsigned char vif_id, unsigned char *data, unsigned short len)$/;"	f
+cfg80211_report_mgmt_disassoc	wlan_cfg80211.c	/^void cfg80211_report_mgmt_disassoc(unsigned char vif_id, unsigned char *data, unsigned short len )$/;"	f
+cfg80211_report_mic_failure	wlan_cfg80211.c	/^void cfg80211_report_mic_failure(unsigned char vif_id,$/;"	f
+cfg80211_report_mlme_tx_status	wlan_cfg80211.c	/^void cfg80211_report_mlme_tx_status(unsigned char vif_id,$/;"	f
+cfg80211_report_remain_on_channel_expired	wlan_cfg80211.c	/^void cfg80211_report_remain_on_channel_expired(unsigned char vif_id, unsigned char *data, unsigned short len)$/;"	f
+cfg80211_report_scan_done	wlan_cfg80211.c	/^void cfg80211_report_scan_done(unsigned char vif_id, unsigned char *pData, int len, bool aborted)$/;"	f
+cfg80211_report_scan_frame	wlan_cfg80211.c	/^void cfg80211_report_scan_frame(unsigned char vif_id, unsigned char *pData, int len)$/;"	f
+cfg80211_report_station	wlan_cfg80211.c	/^void cfg80211_report_station(unsigned char vif_id, unsigned char *data, unsigned short len )$/;"	f
+chan	wlan_cmd.h	/^	u8 chan;		\/* send channel *\/$/;"	m	struct:wlan_cmd_mgmt_tx_t
+chan	wlan_cmd.h	/^	u8 chan;		\/* send channel *\/$/;"	m	struct:wlan_cmd_remain_chan_t
+chan_type	wlan_cmd.h	/^	u8 chan_type;$/;"	m	struct:wlan_cmd_remain_chan_t
+channel	wlan_cfg80211.h	/^	unsigned short channel;$/;"	m	struct:__anon1
+channel	wlan_cmd.h	/^	unsigned int channel;$/;"	m	struct:wlan_cmd_set_channel
+channel	wlan_cmd.h	/^    unsigned char channel;$/;"	m	struct:wlan_event_report_frame_t
+channel	wlan_cmd.h	/^    unsigned short channel;$/;"	m	struct:__anon29
+check_buff_status	wlan_event_q.c	/^static unsigned char check_buff_status(unsigned char *buff, unsigned short index)$/;"	f	file:
+check_valid_chn	wlan_core.c	/^static int check_valid_chn(int flag, unsigned short status, sdio_chn_t *chn_info)$/;"	f	file:
+chn	wlan_common.h	/^	unsigned char  chn[16];$/;"	m	struct:__anon17
+chn_timeout_cnt	wlan_common.h	/^    int            chn_timeout_cnt;$/;"	m	struct:__anon17
+cipher	wlan_cmd.h	/^	unsigned int cipher;$/;"	m	struct:wlan_cmd_set_cipher
+cipher_type	wlan_common.h	/^	unsigned char                     cipher_type;$/;"	m	struct:__anon25
+cipherdataidx	wlan_wapi.c	/^static const unsigned int cipherdataidx[MK_LEN][MK_LEN] = {$/;"	v	file:
+cmd	wlan_cmd.c	/^	char *cmd;$/;"	m	struct:__anon12	file:
+cmd	wlan_common.h	/^	wlan_cmd_t          cmd;$/;"	m	struct:__anon28
+cmd_lock	wlan_common.h	/^	struct mutex       cmd_lock;$/;"	m	struct:__anon23	typeref:struct:__anon23::mutex
+cmd_t	wlan_cmd.c	/^}cmd_t;$/;"	t	typeref:struct:__anon12	file:
+code	wlan_cmd.h	/^	int code;$/;"	m	struct:wlan_cmd_rsp_state_code
+connect_status	wlan_common.h	/^	int                               connect_status;$/;"	m	struct:__anon25
+cookie	wlan_cmd.h	/^	u64 cookie;		\/* cookie *\/$/;"	m	struct:wlan_cmd_cancel_remain_chan_t
+cookie	wlan_cmd.h	/^	u64 cookie;     \/* cookie *\/$/;"	m	struct:wlan_report_mgmt_tx_status
+cookie	wlan_cmd.h	/^	u64 cookie;    \/* cookie *\/$/;"	m	struct:wlan_cmd_mgmt_tx_t
+cookie	wlan_cmd.h	/^	u64 cookie;\/* cookie *\/$/;"	m	struct:wlan_cmd_remain_chan_t
+core_down	wlan_core.c	/^void core_down(void)$/;"	f
+core_try_down	wlan_core.c	/^void core_try_down(int retry)$/;"	f
+core_try_up	wlan_core.c	/^void core_try_up(void )$/;"	f
+core_up	wlan_core.c	/^void core_up(void)$/;"	f
+cp2_status	wlan_common.h	/^	int cp2_status;	$/;"	m	struct:__anon20
+cp2_txRam	wlan_fifo.h	/^	unsigned int   cp2_txRam;$/;"	m	struct:__anon10
+cp2_txRam	wlan_fifo.h	/^	unsigned int   cp2_txRam;$/;"	m	struct:__anon9
+cypher_type	wlan_cmd.h	/^	unsigned char cypher_type;$/;"	m	struct:wlan_cmd_add_key
+data	wlan_fifo.h	/^	unsigned char  *data;$/;"	m	struct:__anon4
+dataInfo	wlan_fifo.h	/^} dataInfo;$/;"	t	typeref:struct:__anon4
+data_seq	wlan_common.h	/^	unsigned int   data_seq;$/;"	m	struct:__anon26
+data_time	wlan_common.h	/^	struct timeval data_time;$/;"	m	struct:__anon26	typeref:struct:__anon26::timeval
+deauth_info	wlan_common.h	/^	struct deauth_info	              deauth_info;$/;"	m	struct:__anon27	typeref:struct:__anon27::deauth_info
+deauth_info	wlan_common.h	/^struct deauth_info {$/;"	s
+dev	wlan_common.h	/^	struct device      *dev;$/;"	m	struct:__anon28	typeref:struct:__anon28::device
+done_rx	wlan_common.h	/^	unsigned int        done_rx;$/;"	m	struct:__anon22
+done_tx	wlan_common.h	/^	unsigned int        done_tx;$/;"	m	struct:__anon22
+dont_wait_for_ack	wlan_cmd.h	/^	u8 dont_wait_for_ack;	\/*don't wait for ack*\/$/;"	m	struct:wlan_cmd_mgmt_tx_t
+drv_status	wlan_common.h	/^	int drv_status;$/;"	m	struct:__anon20
+drv_sync_t	wlan_common.h	/^}drv_sync_t;$/;"	t	typeref:struct:__anon20
+duraion	wlan_cmd.h	/^	u32 duraion;$/;"	m	struct:wlan_cmd_remain_chan_t
+early_suspend	wlan_common.h	/^	struct early_suspend  early_suspend;$/;"	m	struct:__anon21	typeref:struct:__anon21::early_suspend
+essid	wlan_cmd.h	/^	unsigned char essid[0];$/;"	m	struct:wlan_cmd_set_essid
+event_buf	wlan_event_q.h	/^	unsigned char  *event_buf;   \/* Base address of event buffer array               *\/$/;"	m	struct:__anon15
+event_cnt	wlan_event_q.h	/^	unsigned short  event_cnt;   \/* Current number of valid events                   *\/$/;"	m	struct:__anon15
+event_q_deinit	wlan_event_q.c	/^int event_q_deinit(m_event_t *mEventQ)$/;"	f
+event_q_init	wlan_event_q.c	/^int event_q_init(m_event_t *mEventQ, m_event_conf_t *conf)$/;"	f
+event_size	wlan_event_q.h	/^	unsigned short  event_size;  \/* Size of the event message structure              *\/$/;"	m	struct:__anon15
+event_size	wlan_event_q.h	/^	unsigned short  event_size; $/;"	m	struct:__anon16
+exit	wlan_common.h	/^	int              exit;$/;"	m	struct:__anon20
+exit_flag	wlan_common.h	/^	int exit_flag;$/;"	m	struct:__anon22
+exit_status	wlan_common.h	/^	atomic_t exit_status;$/;"	m	struct:__anon22
+failed	wlan_cmd.h	/^	unsigned int failed;$/;"	m	struct:wlan_cmd_get_txrate_txfailed
+false	wlan_wapi.h	25;"	d
+fifo_mem_alloc	wlan_fifo.c	/^unsigned char *fifo_mem_alloc(unsigned int byte)$/;"	f
+fifo_mem_free	wlan_fifo.c	/^int fifo_mem_free(unsigned char *mem, unsigned int byte)$/;"	f
+fk_parameter	wlan_wapi.c	/^static const unsigned int fk_parameter[] = { FK_PARAMETER_0, FK_PARAMETER_1,$/;"	v	file:
+flow_ctrl_enable	wlan_common.h	/^	bool                              flow_ctrl_enable;$/;"	m	struct:__anon27
+flow_ctrl_set	wlan_common.h	/^	bool                              flow_ctrl_set;$/;"	m	struct:__anon27
+fp_size	wlan_hostapd_conf.c	/^static int fp_size(struct file *f)$/;"	f	file:
+frag	wlan_cmd.h	/^	unsigned short frag;$/;"	m	struct:wlan_cmd_set_frag
+frame_cntl_mask	wlan_wapi.c	/^const unsigned short frame_cntl_mask = 0x8FC7;$/;"	v
+frame_len	wlan_cmd.h	/^    unsigned short frame_len;$/;"	m	struct:__anon29
+frame_len	wlan_cmd.h	/^    unsigned short frame_len;$/;"	m	struct:wlan_event_report_frame_t
+frame_type	wlan_cmd.h	/^    unsigned char frame_type;$/;"	m	struct:wlan_event_report_frame_t
+frame_type	wlan_common.h	/^    unsigned short           frame_type;$/;"	m	struct:__anon24
+free_event	wlan_event_q.c	/^void free_event(void *event, m_event_t *mEventQ)$/;"	f
+g_cmd_table	wlan_cmd.c	/^static cmd_t g_cmd_table[] = $/;"	v	file:
+g_dbg	wlan_core.c	/^unsigned int g_dbg = 0xFFFFFFFF;$/;"	v
+g_nextinputtable	wlan_wapi.c	/^static const unsigned int g_nextinputtable[RK_LEN] = {$/;"	v	file:
+g_wlan	wlan_core.c	/^wlan_info_t g_wlan = { 0 };$/;"	v
+get_ack_seq	wlan_tcp.c	/^static unsigned int get_ack_seq(unsigned char *frame, unsigned int len)$/;"	f	file:
+get_bssid	wlan_cfg80211.c	/^void get_bssid(unsigned char *data, unsigned char *bssid)$/;"	f
+get_cmd_name	wlan_cmd.c	/^char * get_cmd_name(int id)$/;"	f
+get_data_seq	wlan_tcp.c	/^static unsigned int get_data_seq(unsigned char *frame, unsigned int len)$/;"	f	file:
+get_event	wlan_event_q.c	/^unsigned char *get_event(m_event_t *mEventQ)$/;"	f
+get_file_size	wlan_cfg80211.c	/^static int get_file_size(struct file *f)$/;"	f	file:
+get_ip_hdr	wlan_tcp.c	/^static int get_ip_hdr(unsigned char *frame, int len, unsigned char **ip_hdr)$/;"	f	file:
+get_line	wlan_hostapd_conf.c	/^static char *get_line(char *buf, char *end)$/;"	f	file:
+get_ssid	wlan_cfg80211.c	/^void get_ssid(unsigned char *data, unsigned char *ssid)$/;"	f
+get_tcp_hdr	wlan_tcp.c	/^static int get_tcp_hdr(unsigned char *frame, int len,unsigned char **tcp_hdr)$/;"	f	file:
+global_channel	wlan_cfg80211.c	/^struct ieee80211_channel global_channel;$/;"	v	typeref:struct:ieee80211_channel
+global_cookie	wlan_cfg80211.c	/^u64 global_cookie;$/;"	v
+gpio_high	wlan_common.h	/^	int            gpio_high;$/;"	m	struct:__anon17
+hdr	wlan_fifo.h	/^	t_msg_hdr_t hdr;$/;"	m	struct:__anon8
+head_index	wlan_event_q.h	/^	unsigned short  head_index;  \/* Next index to be read                            *\/$/;"	m	struct:__anon15
+hex2byte	wlan_hostapd_conf.c	/^static int hex2byte(const char *hex)$/;"	f	file:
+hex2num	wlan_hostapd_conf.c	/^static int hex2num(char c)$/;"	f	file:
+hex_dump	wlan_cmd.c	/^int hex_dump(unsigned char  *name, unsigned short nLen, unsigned char *pData,  unsigned short len)$/;"	f
+hexstr2bin	wlan_hostapd_conf.c	/^static int hexstr2bin(const char *hex, u8 *buf, size_t len)$/;"	f	file:
+highThres	wlan_event_q.h	/^	unsigned short  highThres;$/;"	m	struct:__anon15
+highThres	wlan_event_q.h	/^	unsigned short  highThres;$/;"	m	struct:__anon16
+hostap_conf	wlan_cfg80211.h	/^struct hostap_conf$/;"	s
+hostap_conf_create	wlan_hostapd_conf.c	/^static struct hostap_conf *hostap_conf_create(void)$/;"	f	file:
+hostap_conf_load	wlan_hostapd_conf.c	/^int hostap_conf_load(char *filename, unsigned char *key_val)$/;"	f
+hostap_conf_parse	wlan_hostapd_conf.c	/^static unsigned char hostap_conf_parse(char *buf, int size,$/;"	f	file:
+hostap_conf_read	wlan_hostapd_conf.c	/^static int hostap_conf_read(char *filename, char **buf)$/;"	f	file:
+hssid	wlan_common.h	/^	struct wlan_cmd_hidden_ssid       hssid;$/;"	m	struct:__anon27	typeref:struct:__anon27::wlan_cmd_hidden_ssid
+hw	wlan_common.h	/^	hw_info_t           hw;$/;"	m	struct:__anon28
+hw_info_t	wlan_common.h	/^}hw_info_t;$/;"	t	typeref:struct:__anon21
+hw_rx	wlan_core.c	/^static int hw_rx(const unsigned short chn, unsigned char *buf, unsigned int *len)$/;"	f	file:
+hw_tx	wlan_core.c	/^static int hw_tx(const unsigned short chn, unsigned char *buf, unsigned int len)$/;"	f	file:
+id	wlan_cmd.c	/^	unsigned short id;$/;"	m	struct:__anon12	file:
+id	wlan_common.h	/^	unsigned short                    id;$/;"	m	struct:__anon27
+id_to_vif	wlan_cfg80211.c	/^wlan_vif_t *id_to_vif(unsigned char id)$/;"	f
+idle_sleep	wlan_common.h	/^	int                 idle_sleep;$/;"	m	struct:__anon22
+ie	wlan_cmd.h	/^	unsigned char  ie[0];$/;"	m	struct:wlan_cmd_ft_ies_params
+ie_len	wlan_cmd.h	/^	unsigned short ie_len;$/;"	m	struct:wlan_cmd_ft_ies_params
+ignore_broadcast_ssid	wlan_cmd.h	/^	unsigned int ignore_broadcast_ssid;$/;"	m	struct:wlan_cmd_hidden_ssid
+inc_wapi_pairwise_key_txrsc	wlan_wapi.h	/^static inline unsigned char *inc_wapi_pairwise_key_txrsc(wlan_vif_t *vif)$/;"	f
+init_register_frame_param	wlan_cfg80211.c	/^void init_register_frame_param(wlan_vif_t *vif )$/;"	f
+init_send_deauth_work	wlan_cfg80211.c	/^void init_send_deauth_work(wlan_vif_t *vif)$/;"	f
+init_wiphy_parameters	wlan_cfg80211.c	/^static void init_wiphy_parameters(struct wiphy *wiphy)$/;"	f	file:
+ip	wlan_cmd.h	/^	unsigned char ip[4];$/;"	m	struct:wlan_cmd_get_ip
+is_bgscan	wlan_common.h	/^	int is_bgscan;$/;"	m	struct:__anon25
+is_group	wlan_wapi.h	/^static inline bool is_group(unsigned char *addr)$/;"	f
+is_mcast	wlan_cmd.h	/^	u8 is_mcast;$/;"	m	struct:wlan_event_mic_failure
+is_npi_start_cmd	wlan_npi.c	/^static bool is_npi_start_cmd(void *buf)$/;"	f	file:
+is_sta_or_p2p_open	wlan_npi.c	/^static bool is_sta_or_p2p_open(void)$/;"	f	file:
+is_tcp_ack	wlan_tcp.c	/^static bool is_tcp_ack(unsigned char *frame, int len)$/;"	f	file:
+is_tcp_data	wlan_tcp.c	/^static bool is_tcp_data(unsigned char *frame, int len)$/;"	f	file:
+iterate	wlan_wapi.c	/^static unsigned int iterate(bool key, unsigned int next_input,$/;"	f	file:
+itm_2ghz_channels	wlan_cfg80211.c	/^static struct ieee80211_channel itm_2ghz_channels[] =$/;"	v	typeref:struct:ieee80211_channel	file:
+itm_a_rates	wlan_cfg80211.c	83;"	d	file:
+itm_band_2ghz	wlan_cfg80211.c	/^static struct ieee80211_supported_band itm_band_2ghz = {$/;"	v	typeref:struct:ieee80211_supported_band	file:
+itm_cipher_suites	wlan_cfg80211.c	/^static const u32 itm_cipher_suites[] = {$/;"	v	file:
+itm_find_ft_ie	wlan_cfg80211.c	/^static bool itm_find_ft_ie(const unsigned char *ies, size_t ies_len, unsigned char *buf, size_t *ie_len)$/;"	f	file:
+itm_find_p2p_ie	wlan_cfg80211.c	/^static bool itm_find_p2p_ie(const u8 *ie, size_t ie_len, u8 *p2p_ie,$/;"	f	file:
+itm_find_wpsie	wlan_cfg80211.c	/^static bool itm_find_wpsie(const unsigned char *ies, size_t ies_len,$/;"	f	file:
+itm_g_htcap	wlan_cfg80211.c	85;"	d	file:
+itm_g_rates	wlan_cfg80211.c	81;"	d	file:
+itm_get_p2p_mode_from_file	wlan_cfg80211.c	/^int itm_get_p2p_mode_from_file(void)$/;"	f
+itm_inetaddr_cb	wlan_core.c	/^static struct notifier_block itm_inetaddr_cb = {$/;"	v	typeref:struct:notifier_block	file:
+itm_is_wps_ie	wlan_cfg80211.c	/^static bool itm_is_wps_ie(const unsigned char *pos)$/;"	f	file:
+itm_mgmt_stypes	wlan_cfg80211.c	/^itm_mgmt_stypes[NUM_NL80211_IFTYPES] = {$/;"	v	typeref:struct:ieee80211_txrx_stypes	file:
+itm_rates	wlan_cfg80211.c	/^static struct ieee80211_rate itm_rates[] =$/;"	v	typeref:struct:ieee80211_rate	file:
+itm_wlan_add_cipher_key	wlan_cfg80211.c	/^static int itm_wlan_add_cipher_key(wlan_vif_t *vif, bool pairwise,  unsigned char key_index, unsigned int cipher, const unsigned char *key_seq,  const unsigned char *macaddr)$/;"	f	file:
+itm_wlan_change_mode	wlan_cfg80211.c	/^static int itm_wlan_change_mode(wlan_vif_t *vif, enum nl80211_iftype type)$/;"	f	file:
+itm_wlan_start_ap	wlan_cfg80211.c	/^static int itm_wlan_start_ap(wlan_vif_t *vif,$/;"	f	file:
+keep	wlan_cfg80211.h	/^	unsigned char  keep;$/;"	m	struct:__anon1
+key	wlan_cmd.h	/^	unsigned char key[0];$/;"	m	struct:wlan_cmd_set_psk
+key	wlan_common.h	/^	unsigned char                     key[2][4][WLAN_MAX_KEY_LEN];$/;"	m	struct:__anon25
+key_id	wlan_cmd.h	/^	u8 key_id;$/;"	m	struct:wlan_event_mic_failure
+key_index	wlan_cmd.h	/^	unsigned char key_index;$/;"	m	struct:wlan_cmd_add_key
+key_index	wlan_cmd.h	/^	unsigned char key_index;$/;"	m	struct:wlan_cmd_del_key
+key_index	wlan_cmd.h	/^	unsigned int key_index;$/;"	m	struct:wlan_cmd_set_key
+key_index	wlan_common.h	/^	unsigned char                     key_index[2];$/;"	m	struct:__anon25
+key_len	wlan_cmd.h	/^	unsigned char key_len;$/;"	m	struct:wlan_cmd_add_key
+key_len	wlan_common.h	/^	unsigned char                     key_len[2][4];$/;"	m	struct:__anon25
+key_mgmt	wlan_cmd.h	/^	unsigned int key_mgmt;$/;"	m	struct:wlan_cmd_set_key_management
+key_txrsc	wlan_common.h	/^	unsigned char                     key_txrsc[2][WLAN_MAX_KEY_LEN];$/;"	m	struct:__anon25
+keyseq	wlan_cmd.h	/^	unsigned char keyseq[8];$/;"	m	struct:wlan_cmd_add_key
+len	wlan_cfg80211.h	/^	unsigned int len;$/;"	m	struct:hostap_conf
+len	wlan_cmd.h	/^	u16 len;		\/* max ie len is 255 *\/$/;"	m	struct:wlan_cmd_p2p_ie_t
+len	wlan_cmd.h	/^	u16 len;$/;"	m	struct:wlan_cmd_beacon_t
+len	wlan_cmd.h	/^	u32 len;		\/* mac length*\/$/;"	m	struct:wlan_cmd_mgmt_tx_t
+len	wlan_cmd.h	/^	u32 len;    \/* frame len *\/$/;"	m	struct:wlan_report_mgmt_tx_status
+len	wlan_cmd.h	/^	u32 len;$/;"	m	struct:wlan_set_regdom_params
+len	wlan_cmd.h	/^	unsigned char len;		\/* max ie len is 255 *\/$/;"	m	struct:wlan_cmd_wps_ie
+len	wlan_cmd.h	/^	unsigned char len;$/;"	m	struct:wlan_cmd_beacon
+len	wlan_cmd.h	/^	unsigned char len;$/;"	m	struct:wlan_cmd_scan_ssid
+len	wlan_cmd.h	/^	unsigned int len;$/;"	m	struct:wlan_cmd_scan
+len	wlan_cmd.h	/^	unsigned short len;$/;"	m	struct:wlan_cmd_set_essid
+len	wlan_cmd.h	/^	unsigned short len;$/;"	m	struct:wlan_cmd_set_psk
+len	wlan_cmd.h	/^        unsigned short len;$/;"	m	struct:npi_cmd_hdr
+len	wlan_common.h	/^	unsigned short len;$/;"	m	struct:deauth_info
+len	wlan_fifo.h	/^	unsigned short  len;$/;"	m	struct:__anon4
+len	wlan_fifo.h	/^	unsigned short len;$/;"	m	struct:__anon7
+len	wlan_fifo.h	/^    unsigned short  len;     \/* Length not include common header *\/$/;"	m	struct:__anon5
+len	wlan_fifo.h	/^    unsigned short  len;     \/* Length not include common header *\/$/;"	m	struct:__anon6
+live	wlan_cfg80211.h	/^	unsigned char  live;$/;"	m	struct:__anon1
+lock	wlan_common.h	/^	spinlock_t     lock;$/;"	m	struct:__anon17
+lock	wlan_fifo.h	/^	spinlock_t     lock;$/;"	m	struct:__anon9
+lowThres	wlan_event_q.h	/^	unsigned short  lowThres;$/;"	m	struct:__anon15
+lowThres	wlan_event_q.h	/^	unsigned short  lowThres;$/;"	m	struct:__anon16
+lte_concur_data_t	wlan_cfg80211.h	/^}lte_concur_data_t;$/;"	t	typeref:struct:__anon2
+lte_concur_proc_fops	wlan_core.c	/^static const struct file_operations lte_concur_proc_fops = $/;"	v	typeref:struct:file_operations	file:
+lte_concur_proc_ioctl	wlan_cfg80211.c	/^ssize_t lte_concur_proc_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f
+lte_concur_proc_open	wlan_cfg80211.c	/^int lte_concur_proc_open(struct inode *inode, struct file *filp)  $/;"	f
+lte_concur_proc_release	wlan_cfg80211.c	/^int lte_concur_proc_release(struct inode *inode, struct file *filp)  $/;"	f
+m_event_conf_t	wlan_event_q.h	/^}m_event_conf_t;$/;"	t	typeref:struct:__anon16
+m_event_t	wlan_event_q.h	/^}m_event_t;$/;"	t	typeref:struct:__anon15
+mac	wlan_cmd.h	/^	unsigned char mac[6];$/;"	m	struct:wlan_cmd_add_key
+mac	wlan_cmd.h	/^	unsigned char mac[6];$/;"	m	struct:wlan_cmd_blacklist
+mac	wlan_cmd.h	/^	unsigned char mac[6];$/;"	m	struct:wlan_cmd_del_key
+mac	wlan_cmd.h	/^	unsigned char mac[6];$/;"	m	struct:wlan_cmd_disassoc
+mac	wlan_cmd.h	/^	unsigned char mac[6];$/;"	m	struct:wlan_cmd_mac_open
+mac	wlan_cmd.h	/^	unsigned char mac[6];$/;"	m	struct:wlan_cmd_whitelist
+mac	wlan_common.h	/^	unsigned char                     mac[ETH_ALEN];$/;"	m	struct:__anon27
+mac	wlan_common.h	/^	unsigned char mac[60];$/;"	m	struct:deauth_info
+mac_addr_cfg	wlan_cfg80211.c	/^int mac_addr_cfg(wlan_vif_t *vif, unsigned char vif_id)$/;"	f
+marlin_priv_cmd	wlan_core.c	/^int marlin_priv_cmd(struct net_device *ndev, struct ifreq *ifr)$/;"	f
+max_events	wlan_event_q.h	/^	unsigned short  max_events;  \/* Number of events can be accomadated in the queue *\/$/;"	m	struct:__anon15
+max_events	wlan_event_q.h	/^	unsigned short  max_events;$/;"	m	struct:__anon16
+max_msg_num	wlan_fifo.h	/^	unsigned short max_msg_num;$/;"	m	struct:__anon10
+max_msg_num	wlan_fifo.h	/^	unsigned short max_msg_num;$/;"	m	struct:__anon9
+max_null_run	wlan_common.h	/^	int                 max_null_run;$/;"	m	struct:__anon22
+md	wlan_cmd.h	/^	unsigned short md;$/;"	m	struct:wlan_cmd_ft_ies_params
+mem	wlan_common.h	/^	unsigned char     *mem;$/;"	m	struct:__anon23
+mem	wlan_fifo.h	/^	unsigned char *mem;$/;"	m	struct:__anon9
+mem	wlan_fifo.h	/^	unsigned char *mem[RX_FIFO_BLOCK_NUM];$/;"	m	struct:__anon11
+mem	wlan_msg_q.h	/^	unsigned char *mem;$/;"	m	struct:__anon13
+mem_lock	wlan_common.h	/^	struct mutex       mem_lock;$/;"	m	struct:__anon23	typeref:struct:__anon23::mutex
+mget_wapi_group_mic_key	wlan_wapi.h	/^static inline unsigned char *mget_wapi_group_mic_key(wlan_vif_t *vif,$/;"	f
+mget_wapi_group_pkt_key	wlan_wapi.h	/^static inline unsigned char *mget_wapi_group_pkt_key(wlan_vif_t *vif,$/;"	f
+mget_wapi_pairwise_mic_key	wlan_wapi.h	/^static inline unsigned char *mget_wapi_pairwise_mic_key(wlan_vif_t$/;"	f
+mget_wapi_pairwise_pkt_key	wlan_wapi.h	/^static inline unsigned char *mget_wapi_pairwise_pkt_key(wlan_vif_t$/;"	f
+mode	wlan_cmd.h	/^	unsigned char mode;	\/* AP or STATION mode *\/$/;"	m	struct:wlan_cmd_mac_close
+mode	wlan_cmd.h	/^	unsigned int mode;$/;"	m	struct:wlan_cmd_get_device_mode
+mode	wlan_cmd.h	/^	unsigned short mode;	\/* AP or STATION mode *\/$/;"	m	struct:wlan_cmd_mac_open
+mode	wlan_common.h	/^	int                               mode;	$/;"	m	struct:__anon27
+mode	wlan_fifo.h	/^	unsigned char  mode;$/;"	m	struct:__anon7
+mode	wlan_fifo.h	/^    unsigned char   mode: 1; \/* message dest mode: 1 STA, 2 softAP, 3 P2P *\/$/;"	m	struct:__anon5
+mode	wlan_fifo.h	/^    unsigned char   mode: 1; \/* message dest mode: 1 STA, 2 softAP, 3 P2P *\/$/;"	m	struct:__anon6
+msa	wlan_cfg80211.h	/^	unsigned char  msa[1024];$/;"	m	struct:__anon1
+msa_len	wlan_cfg80211.h	/^	unsigned short msa_len;$/;"	m	struct:__anon1
+msg	wlan_fifo.h	/^	t_msg_hdr_t    msg[14];$/;"	m	struct:__anon7
+msg_free	wlan_msg_q.c	/^int msg_free(msg_q_t *msg_q, void *msg)$/;"	f
+msg_get	wlan_msg_q.c	/^unsigned char *msg_get(msg_q_t *msg_q)$/;"	f
+msg_num	wlan_fifo.h	/^	unsigned char  msg_num;$/;"	m	struct:__anon7
+msg_num	wlan_msg_q.c	/^int msg_num(msg_q_t *msg_q)$/;"	f
+msg_q	wlan_common.h	/^	msg_q_t                           msg_q[2];$/;"	m	struct:__anon27
+msg_q	wlan_common.h	/^	msg_q_t        msg_q;$/;"	m	struct:__anon26
+msg_q_alloc	wlan_msg_q.c	/^int msg_q_alloc(msg_q_t *msg_q, unsigned short size, unsigned short num)$/;"	f
+msg_q_free	wlan_msg_q.c	/^int msg_q_free(msg_q_t *msg_q)$/;"	f
+msg_q_in	wlan_msg_q.c	/^int msg_q_in(msg_q_t *msg_q, void *msg)$/;"	f
+msg_q_t	wlan_msg_q.h	/^}msg_q_t;$/;"	t	typeref:struct:__anon13
+multiplycircular	wlan_wapi.c	/^static unsigned int multiplycircular(unsigned int word, unsigned int basis)$/;"	f	file:
+n_reg_rules	wlan_cfg80211.h	/^	u32 n_reg_rules;$/;"	m	struct:__anon3
+ndev	wlan_common.h	/^	struct net_device                *ndev;$/;"	m	struct:__anon27	typeref:struct:__anon27::net_device
+ndev_to_vif	wlan_cfg80211.c	/^wlan_vif_t *ndev_to_vif(struct net_device *ndev)$/;"	f
+need_rx	wlan_common.h	/^	unsigned int        need_rx;$/;"	m	struct:__anon22
+need_tx	wlan_common.h	/^	unsigned int        need_tx;$/;"	m	struct:__anon22
+netif	wlan_common.h	/^	wlan_vif_t          netif[2];$/;"	m	struct:__anon28
+npi_cmd_hdr	wlan_cmd.h	/^struct npi_cmd_hdr {$/;"	s
+null_run	wlan_common.h	/^	int                 null_run;$/;"	m	struct:__anon22
+num	wlan_common.h	/^	unsigned char  num;$/;"	m	struct:__anon17
+num	wlan_msg_q.h	/^	unsigned int   num;$/;"	m	struct:__anon13
+obj-m	Makefile	/^obj-m := $(MODULE:.ko=.o)$/;"	m
+ops	wlan_cmd.h	/^    unsigned char  ops;$/;"	m	struct:__anon29
+over_ds	wlan_common.h	/^	int over_ds;$/;"	m	struct:__anon25
+p	wlan_fifo.h	/^	void     *p;$/;"	m	struct:__anon8
+p2p_mode	wlan_common.h	/^	int                               p2p_mode;$/;"	m	struct:__anon25
+pairwise	wlan_cmd.h	/^	unsigned char pairwise;		\/* unicase or group *\/$/;"	m	struct:wlan_cmd_del_key
+pairwise	wlan_cmd.h	/^	unsigned char pairwise;$/;"	m	struct:wlan_cmd_add_key
+pmkid	wlan_cmd.h	/^	unsigned char pmkid[ITM_PMKID_LEN];$/;"	m	struct:wlan_cmd_pmkid
+post_event	wlan_event_q.c	/^void post_event(unsigned char *event, m_event_t *mEventQ)$/;"	f
+printkd	wlan_common.h	106;"	d
+printke	wlan_common.h	108;"	d
+printkp	wlan_common.h	107;"	d
+prio	wlan_common.h	/^	int                 prio;$/;"	m	struct:__anon22
+r_msg_hdr_t	wlan_fifo.h	/^}r_msg_hdr_t;$/;"	t	typeref:struct:__anon6
+rate	wlan_cmd.h	/^	unsigned int rate;$/;"	m	struct:wlan_cmd_get_txrate_txfailed
+rd	wlan_msg_q.h	/^	unsigned int   rd;$/;"	m	struct:__anon13
+rd_cnt	wlan_fifo.h	/^	unsigned int   rd_cnt;$/;"	m	struct:__anon9
+rd_cnt	wlan_msg_q.h	/^	unsigned int   rd_cnt;$/;"	m	struct:__anon13
+reason_code	wlan_cmd.h	/^	unsigned int reason_code;$/;"	m	struct:wlan_cmd_assert_t
+reason_code	wlan_cmd.h	/^	unsigned short reason_code;$/;"	m	struct:wlan_cmd_disassoc
+reason_code	wlan_cmd.h	/^	unsigned short reason_code;$/;"	m	struct:wlan_cmd_disconnect
+refcnt	wlan_common.h	/^	atomic_t           refcnt;$/;"	m	struct:__anon23
+reg	wlan_cmd.h	/^	u8  reg;    \/* max ie len is 255 *\/$/;"	m	struct:wlan_cmd_register_frame_t
+reg	wlan_common.h	/^    bool                     reg;$/;"	m	struct:__anon24
+reg_rules	wlan_cfg80211.h	/^	struct ieee80211_reg_rule reg_rules[];$/;"	m	struct:__anon3	typeref:struct:__anon3::ieee80211_reg_rule
+register_frame	wlan_cfg80211.c	/^static int  register_frame(wlan_vif_t *vif, unsigned short frame_type, bool reg)$/;"	f	file:
+register_frame	wlan_common.h	/^	register_frame_param_t            register_frame;$/;"	m	struct:__anon25
+register_frame_param_t	wlan_common.h	/^}register_frame_param_t;$/;"	t	typeref:struct:__anon24
+register_frame_work_fun	wlan_cfg80211.c	/^static void register_frame_work_fun(struct work_struct * work)$/;"	f	file:
+retry	wlan_common.h	/^	atomic_t            retry;$/;"	m	struct:__anon22
+rssih	wlan_cmd.h	/^	s32 rssih;$/;"	m	struct:wlan_cmd_cqm_rssi
+rssil	wlan_cmd.h	/^	u32 rssil;$/;"	m	struct:wlan_cmd_cqm_rssi
+rx_cnt	wlan_cmd.h	/^	unsigned int rx_cnt;$/;"	m	struct:wlan_cmd_assert_t
+rx_cnt	wlan_common.h	/^	unsigned int          rx_cnt;$/;"	m	struct:__anon21
+rx_fifo_alloc	wlan_fifo.c	/^int rx_fifo_alloc(rxfifo_t *fifo)$/;"	f
+rx_fifo_free	wlan_fifo.c	/^int rx_fifo_free(rxfifo_t *fifo )$/;"	f
+rx_fifo_in	wlan_fifo.c	/^int rx_fifo_in(const unsigned char chn, rxfifo_t *fifo, P_FUNC_2 pfunc )$/;"	f
+rx_fifo_out	wlan_fifo.c	/^int rx_fifo_out(rxfifo_t *fifo, P_FUNC_3 pfunc )$/;"	f
+rx_fifo_used	wlan_fifo.c	/^int rx_fifo_used(rxfifo_t *fifo)$/;"	f
+rx_gpio	wlan_common.h	/^	u32 rx_gpio;$/;"	m	struct:__anon21
+rx_record	wlan_common.h	/^	unsigned int          rx_record;$/;"	m	struct:__anon21
+rxfifo	wlan_common.h	/^	rxfifo_t            rxfifo;$/;"	m	struct:__anon28
+rxfifo_t	wlan_fifo.h	/^}rxfifo_t;$/;"	t	typeref:struct:__anon11
+s_box	wlan_wapi.c	/^static const unsigned char s_box[] = {$/;"	v	file:
+s_xstate	wlan_wapi.c	/^static const unsigned char s_xstate[] = {$/;"	v	file:
+scan_done_lock	wlan_common.h	/^	struct wake_lock                  scan_done_lock;$/;"	m	struct:__anon25	typeref:struct:__anon25::wake_lock
+scan_frame_array	wlan_common.h	/^	unsigned char                    *scan_frame_array;$/;"	m	struct:__anon25
+scan_request	wlan_common.h	/^	struct cfg80211_scan_request     *scan_request;$/;"	m	struct:__anon25	typeref:struct:__anon25::cfg80211_scan_request
+scan_status	wlan_common.h	/^	atomic_t                          scan_status;$/;"	m	struct:__anon25
+scan_timeout	wlan_common.h	/^	struct timer_list                 scan_timeout;$/;"	m	struct:__anon25	typeref:struct:__anon25::timer_list
+sdio_chn_t	wlan_common.h	/^}sdio_chn_t;$/;"	t	typeref:struct:__anon17
+sdio_info_dump	wlan_core.c	/^static void sdio_info_dump(void )$/;"	f	file:
+sdio_rx_chn	wlan_common.h	/^	sdio_chn_t            sdio_rx_chn;$/;"	m	struct:__anon21
+sdio_tx_chn	wlan_common.h	/^	sdio_chn_t            sdio_tx_chn;$/;"	m	struct:__anon21
+sem	wlan_common.h	/^	struct semaphore    sem;$/;"	m	struct:__anon22	typeref:struct:__anon22::semaphore
+sem	wlan_common.h	/^	struct semaphore sem;$/;"	m	struct:__anon20	typeref:struct:__anon20::semaphore
+send_deauth_work_func	wlan_cfg80211.c	/^static void send_deauth_work_func(struct work_struct *work)$/;"	f	file:
+seq1	wlan_fifo.h	/^	unsigned int   seq1;$/;"	m	struct:__anon9
+seq2	wlan_fifo.h	/^	unsigned int   seq2;$/;"	m	struct:__anon9
+seq_cntl_mask	wlan_wapi.c	/^const unsigned short seq_cntl_mask = 0x0F00;$/;"	v
+signal	wlan_cfg80211.h	/^	signed   short signal;$/;"	m	struct:__anon1
+signal	wlan_cmd.h	/^    signed   short signal;$/;"	m	struct:__anon29
+size	wlan_cfg80211.h	/^    unsigned int  size;$/;"	m	struct:__anon2
+size	wlan_fifo.h	/^	unsigned int   size;$/;"	m	struct:__anon10
+size	wlan_fifo.h	/^	unsigned int   size;$/;"	m	struct:__anon9
+size	wlan_msg_q.h	/^	unsigned int   size;$/;"	m	struct:__anon13
+slice	wlan_fifo.h	/^	dataInfo  slice[2];$/;"	m	struct:__anon8
+sort_for_max	wlan_cfg80211.c	/^void sort_for_max(unsigned char vif_id, int scan_num)$/;"	f
+spinlock	wlan_event_q.h	/^	spinlock_t      spinlock;$/;"	m	struct:__anon15
+sprd_wlan_device	wlan_core.c	/^static struct platform_device *sprd_wlan_device;$/;"	v	typeref:struct:platform_device	file:
+sprd_wlan_driver	wlan_core.c	/^static struct platform_driver  sprd_wlan_driver =$/;"	v	typeref:struct:platform_driver	file:
+sprd_wlan_exit	wlan_core.c	/^module_exit(sprd_wlan_exit);$/;"	v
+sprd_wlan_exit	wlan_core.c	/^static void  sprd_wlan_exit(void)$/;"	f	file:
+sprd_wlan_init	wlan_core.c	/^module_init(sprd_wlan_init);$/;"	v
+sprd_wlan_init	wlan_core.c	/^static int  sprd_wlan_init(void)$/;"	f	file:
+sprd_wlan_probe	wlan_core.c	/^static int  sprd_wlan_probe(struct platform_device *pdev)$/;"	f	file:
+sprd_wlan_remove	wlan_core.c	/^static int  sprd_wlan_remove(struct platform_device *pdev)$/;"	f	file:
+sprdwl_find_ssid_count	wlan_cfg80211.c	/^u8 sprdwl_find_ssid_count(wlan_vif_t *vif)$/;"	f
+ssid	wlan_cfg80211.h	/^	unsigned char  ssid[33];$/;"	m	struct:__anon1
+ssid	wlan_cmd.h	/^	char ssid[32];$/;"	m	struct:wlan_cmd_hidden_ssid
+ssid	wlan_cmd.h	/^	unsigned char ssid[0];$/;"	m	struct:wlan_cmd_scan
+ssid	wlan_cmd.h	/^	unsigned char ssid[0];$/;"	m	struct:wlan_cmd_scan_ssid
+ssid	wlan_common.h	/^	unsigned char                     ssid[IEEE80211_MAX_SSID_LEN];$/;"	m	struct:__anon25
+ssid_len	wlan_cmd.h	/^	unsigned int ssid_len;$/;"	m	struct:wlan_cmd_hidden_ssid
+ssid_len	wlan_common.h	/^	int                               ssid_len;$/;"	m	struct:__anon25
+stop_net	wlan_core.c	/^bool stop_net(unsigned char id )$/;"	f
+str2mac	wlan_core.c	/^static void str2mac(const char *mac_addr, unsigned char mac[ETH_ALEN])$/;"	f	file:
+subtype	wlan_cmd.h	/^        unsigned char subtype;$/;"	m	struct:npi_cmd_hdr
+subtype	wlan_fifo.h	/^    unsigned char   subtype; \/* SEARCH\/ ATTACH\/DETACH *\/$/;"	m	struct:__anon5
+subtype	wlan_fifo.h	/^    unsigned char   subtype; \/* SEARCH\/ ATTACH\/DETACH *\/$/;"	m	struct:__anon6
+sync	wlan_common.h	/^	drv_sync_t          sync;	$/;"	m	struct:__anon28
+t_msg_hdr_t	wlan_fifo.h	/^}t_msg_hdr_t;$/;"	t	typeref:struct:__anon5
+t_transform	wlan_wapi.c	/^static unsigned int t_transform(unsigned int word)$/;"	f	file:
+tail_index	wlan_event_q.h	/^	unsigned short  tail_index;  \/* Last index inserted                              *\/$/;"	m	struct:__anon15
+task	wlan_common.h	/^	struct task_struct *task;$/;"	m	struct:__anon22	typeref:struct:__anon22::task_struct
+tcp_ack_suppress	wlan_common.h	/^	bool                              tcp_ack_suppress;$/;"	m	struct:__anon27
+tcp_session	wlan_common.h	/^	wlan_tcp_session_t                tcp_session[MAX_TCP_SESSION];$/;"	m	struct:__anon27
+tcp_session_del	wlan_tcp.c	/^static void tcp_session_del(wlan_tcp_session_t  *session)$/;"	f	file:
+tcp_session_updata	wlan_tcp.c	/^void tcp_session_updata(const unsigned char vif_id, unsigned char *frame, unsigned int len)$/;"	f
+thread_sched_policy	wlan_core.c	/^void thread_sched_policy(wlan_thread_t *thread)$/;"	f
+thread_sleep_policy	wlan_core.c	/^void thread_sleep_policy(wlan_thread_t *thread)$/;"	f
+threshold	wlan_cmd.h	/^	unsigned short threshold;$/;"	m	struct:wlan_cmd_set_rts
+tid	wlan_common.h	/^	int            tid;$/;"	m	struct:__anon26
+tid_calc	wlan_tcp.c	/^static unsigned int tid_calc(unsigned char *frame, unsigned int len)$/;"	f	file:
+time_d_value	wlan_tcp.c	/^int time_d_value(struct timeval *start, struct timeval *end)$/;"	f
+timeout	wlan_common.h	/^	unsigned long  timeout;$/;"	m	struct:__anon17
+timeout_flag	wlan_common.h	/^	bool           timeout_flag;$/;"	m	struct:__anon17
+timeout_time	wlan_common.h	/^	unsigned long  timeout_time;$/;"	m	struct:__anon17
+total_len	wlan_cfg80211.h	/^	int total_len;$/;"	m	struct:android_wifi_priv_cmd
+trans_down	wlan_core.c	/^void trans_down(void )$/;"	f
+trans_up	wlan_core.c	/^void trans_up(void )$/;"	f
+true	wlan_wapi.h	28;"	d
+tx_big_hdr_t	wlan_fifo.h	/^}tx_big_hdr_t;$/;"	t	typeref:struct:__anon7
+tx_cnt	wlan_cmd.h	/^	unsigned int tx_cnt;$/;"	m	struct:wlan_cmd_assert_t
+tx_cnt	wlan_common.h	/^	unsigned int          tx_cnt;$/;"	m	struct:__anon21
+tx_cnt	wlan_fifo.h	/^	unsigned int   tx_cnt;$/;"	m	struct:__anon7
+tx_fifo_alloc	wlan_fifo.c	/^int tx_fifo_alloc(txfifo_t *tx_fifo,  txfifo_conf_t *conf)$/;"	f
+tx_fifo_free	wlan_fifo.c	/^int tx_fifo_free(txfifo_t *tx_fifo)$/;"	f
+tx_fifo_in	wlan_fifo.c	/^int tx_fifo_in(txfifo_t *fifo,  tx_msg_t *msg )$/;"	f
+tx_fifo_in_pkt	wlan_fifo.c	/^unsigned int tx_fifo_in_pkt(txfifo_t *tx_fifo)$/;"	f
+tx_fifo_out	wlan_fifo.c	/^int tx_fifo_out(const unsigned char netif_id, const unsigned chn, txfifo_t *fifo, P_FUNC_1 pfunc , unsigned short *count )$/;"	f
+tx_fifo_used	wlan_fifo.c	/^unsigned int tx_fifo_used(txfifo_t *tx_fifo)$/;"	f
+tx_msg_t	wlan_fifo.h	/^}tx_msg_t;$/;"	t	typeref:struct:__anon8
+txfifo	wlan_common.h	/^	txfifo_t                          txfifo;$/;"	m	struct:__anon27
+txfifo_conf_t	wlan_fifo.h	/^}txfifo_conf_t;$/;"	t	typeref:struct:__anon10
+txfifo_t	wlan_fifo.h	/^}txfifo_t;$/;"	t	typeref:struct:__anon9
+type	wlan_cmd.h	/^	u16 type;	\/*  assoc req ie *\/$/;"	m	struct:wlan_cmd_register_frame_t
+type	wlan_cmd.h	/^	u8  type;	\/*  assoc req ie *\/$/;"	m	struct:wlan_cmd_p2p_ie_t
+type	wlan_cmd.h	/^	unsigned char type;	\/* probe req ie or assoc req ie *\/$/;"	m	struct:wlan_cmd_wps_ie
+type	wlan_cmd.h	/^	unsigned int type;$/;"	m	struct:wlan_cmd_set_auth_type
+type	wlan_cmd.h	/^        unsigned char type;$/;"	m	struct:npi_cmd_hdr
+type	wlan_fifo.h	/^	unsigned char   type: 7; \/* CMD\/RSP\/USER DATA *\/$/;"	m	struct:__anon5
+type	wlan_fifo.h	/^	unsigned char   type: 7; \/* CMD\/RSP\/USER DATA *\/$/;"	m	struct:__anon6
+update_buff_status	wlan_event_q.c	/^static void update_buff_status(unsigned char *buff, unsigned short index, unsigned char status)$/;"	f	file:
+used_len	wlan_cfg80211.h	/^	int used_len;$/;"	m	struct:android_wifi_priv_cmd
+value	wlan_cmd.h	/^	u8 value[0];$/;"	m	struct:wlan_cmd_beacon_t
+value	wlan_cmd.h	/^	u8 value[0];$/;"	m	struct:wlan_cmd_p2p_ie_t
+value	wlan_cmd.h	/^	u8 value[0];$/;"	m	struct:wlan_set_regdom_params
+value	wlan_cmd.h	/^	u8 value[0];\/* mac*\/$/;"	m	struct:wlan_cmd_mgmt_tx_t
+value	wlan_cmd.h	/^	unsigned char value[0];$/;"	m	struct:wlan_cmd_add_key
+value	wlan_cmd.h	/^	unsigned char value[0];$/;"	m	struct:wlan_cmd_beacon
+value	wlan_cmd.h	/^	unsigned char value[0];$/;"	m	struct:wlan_cmd_wps_ie
+vif	wlan_common.h	/^    void                    *vif;$/;"	m	struct:__anon24
+wait	wlan_cmd.h	/^	u32 wait;	\/* wait time *\/$/;"	m	struct:wlan_cmd_mgmt_tx_t
+waitQ	wlan_common.h	/^	wait_queue_head_t  waitQ;$/;"	m	struct:__anon23
+wake_net	wlan_core.c	/^bool wake_net(unsigned char id)$/;"	f
+wakeup	wlan_common.h	/^	int                   wakeup;$/;"	m	struct:__anon21
+wakeup	wlan_common.h	/^	int                wakeup;$/;"	m	struct:__anon23
+wakeup_time	wlan_common.h	/^	unsigned long         wakeup_time;$/;"	m	struct:__anon21
+wakeup_timer	wlan_common.h	/^	struct timer_list     wakeup_timer;$/;"	m	struct:__anon21	typeref:struct:__anon21::timer_list
+wakeup_timer_func	wlan_core.c	/^void wakeup_timer_func(unsigned long data)$/;"	f
+wdev	wlan_common.h	/^	struct wireless_dev               wdev;$/;"	m	struct:__anon27	typeref:struct:__anon27::wireless_dev
+weight	wlan_event_q.h	/^	unsigned short  weight;$/;"	m	struct:__anon15
+weight	wlan_event_q.h	/^	unsigned short  weight;$/;"	m	struct:__anon16
+wiphy	wlan_common.h	/^	struct wiphy       *wiphy;$/;"	m	struct:__anon28	typeref:struct:__anon28::wiphy
+wlan_cfg80211_add_key	wlan_cfg80211.c	/^static int wlan_cfg80211_add_key(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_cancel_remain_on_channel	wlan_cfg80211.c	/^static int wlan_cfg80211_cancel_remain_on_channel(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_change_beacon	wlan_cfg80211.c	/^static int wlan_cfg80211_change_beacon(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_change_iface	wlan_cfg80211.c	/^static int wlan_cfg80211_change_iface(struct wiphy *wiphy, struct net_device *ndev, enum nl80211_iftype type, unsigned int *flags, struct vif_params *params)$/;"	f	file:
+wlan_cfg80211_connect	wlan_cfg80211.c	/^static int wlan_cfg80211_connect(struct wiphy *wiphy, struct net_device *ndev,$/;"	f	file:
+wlan_cfg80211_del_key	wlan_cfg80211.c	/^static int wlan_cfg80211_del_key(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_del_pmksa	wlan_cfg80211.c	/^static int wlan_cfg80211_del_pmksa(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_del_station	wlan_cfg80211.c	/^static int wlan_cfg80211_del_station(struct wiphy *wiphy,  struct net_device *ndev, u8 *mac)$/;"	f	file:
+wlan_cfg80211_disconnect	wlan_cfg80211.c	/^static int wlan_cfg80211_disconnect(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_flush_pmksa	wlan_cfg80211.c	/^static int wlan_cfg80211_flush_pmksa(struct wiphy *wiphy, struct net_device *netdev)$/;"	f	file:
+wlan_cfg80211_get_station	wlan_cfg80211.c	/^static int wlan_cfg80211_get_station(struct wiphy *wiphy, struct net_device *dev, unsigned char *mac, struct station_info *sinfo)$/;"	f	file:
+wlan_cfg80211_mgmt_frame_register	wlan_cfg80211.c	/^static void wlan_cfg80211_mgmt_frame_register(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_mgmt_tx	wlan_cfg80211.c	/^static int wlan_cfg80211_mgmt_tx(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_ops	wlan_cfg80211.c	/^static struct cfg80211_ops wlan_cfg80211_ops =$/;"	v	typeref:struct:cfg80211_ops	file:
+wlan_cfg80211_reg_notify	wlan_cfg80211.c	/^static void wlan_cfg80211_reg_notify(struct wiphy *wiphy, struct regulatory_request *request)$/;"	f	file:
+wlan_cfg80211_remain_on_channel	wlan_cfg80211.c	/^static int wlan_cfg80211_remain_on_channel(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_scan	wlan_cfg80211.c	/^static int wlan_cfg80211_scan(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_set_channel	wlan_cfg80211.c	/^static int wlan_cfg80211_set_channel(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_set_cqm_rssi_config	wlan_cfg80211.c	/^int wlan_cfg80211_set_cqm_rssi_config(struct wiphy *wiphy,$/;"	f
+wlan_cfg80211_set_default_key	wlan_cfg80211.c	/^static int wlan_cfg80211_set_default_key(struct wiphy *wiphy, struct net_device *ndev, unsigned char key_index, bool unicast, bool multicast)$/;"	f	file:
+wlan_cfg80211_set_pmksa	wlan_cfg80211.c	/^static int wlan_cfg80211_set_pmksa(struct wiphy *wiphy, struct net_device *netdev, struct cfg80211_pmksa *pmksa)$/;"	f	file:
+wlan_cfg80211_set_wiphy_params	wlan_cfg80211.c	/^static int wlan_cfg80211_set_wiphy_params(struct wiphy *wiphy, unsigned int changed)$/;"	f	file:
+wlan_cfg80211_start_ap	wlan_cfg80211.c	/^static int wlan_cfg80211_start_ap(struct wiphy *wiphy, struct net_device *ndev, struct cfg80211_ap_settings *info)$/;"	f	file:
+wlan_cfg80211_stop_ap	wlan_cfg80211.c	/^static int wlan_cfg80211_stop_ap(struct wiphy *wiphy,$/;"	f	file:
+wlan_cfg80211_t	wlan_common.h	/^}wlan_cfg80211_t;$/;"	t	typeref:struct:__anon25
+wlan_cfg80211_update_ft_ies	wlan_cfg80211.c	/^int	wlan_cfg80211_update_ft_ies(struct wiphy *wiphy, struct net_device *ndev, struct cfg80211_update_ft_ies_params *ftie)$/;"	f
+wlan_change_beacon	wlan_cfg80211.c	/^static int wlan_change_beacon(wlan_vif_t *vif,struct cfg80211_beacon_data *beacon)$/;"	f	file:
+wlan_close	wlan_core.c	/^static int wlan_close(struct net_device *dev)$/;"	f	file:
+wlan_cmd_add_blacklist	wlan_cmd.c	/^int wlan_cmd_add_blacklist(unsigned char vif_id, u8 *mac_addr)$/;"	f
+wlan_cmd_add_key	wlan_cmd.c	/^int wlan_cmd_add_key(unsigned char vif_id, const unsigned char *key_data, unsigned char key_len,$/;"	f
+wlan_cmd_add_key	wlan_cmd.h	/^struct wlan_cmd_add_key$/;"	s
+wlan_cmd_add_whitelist	wlan_cmd.c	/^int wlan_cmd_add_whitelist(unsigned char vif_id, u8 *mac_addr)$/;"	f
+wlan_cmd_assert	wlan_cmd.c	/^int wlan_cmd_assert(unsigned char vif_id, unsigned int reason_code)$/;"	f
+wlan_cmd_assert_t	wlan_cmd.h	/^struct wlan_cmd_assert_t$/;"	s
+wlan_cmd_beacon	wlan_cmd.h	/^struct wlan_cmd_beacon$/;"	s
+wlan_cmd_beacon_t	wlan_cmd.h	/^struct wlan_cmd_beacon_t {$/;"	s
+wlan_cmd_blacklist	wlan_cmd.h	/^struct wlan_cmd_blacklist {$/;"	s
+wlan_cmd_cancel_remain_chan	wlan_cmd.c	/^int wlan_cmd_cancel_remain_chan(unsigned char vif_id, u64 cookie)$/;"	f
+wlan_cmd_cancel_remain_chan_t	wlan_cmd.h	/^struct wlan_cmd_cancel_remain_chan_t {$/;"	s
+wlan_cmd_clean	wlan_cmd.c	/^static inline void wlan_cmd_clean(void)$/;"	f	file:
+wlan_cmd_cmq_rssi	wlan_cmd.c	/^int wlan_cmd_cmq_rssi(unsigned char vif_id,$/;"	f
+wlan_cmd_cqm_rssi	wlan_cmd.h	/^struct wlan_cmd_cqm_rssi {$/;"	s
+wlan_cmd_deinit	wlan_cmd.c	/^int wlan_cmd_deinit(void )$/;"	f
+wlan_cmd_del_blacklist	wlan_cmd.c	/^int wlan_cmd_del_blacklist(unsigned char vif_id, u8 *mac_addr)$/;"	f
+wlan_cmd_del_key	wlan_cmd.c	/^int wlan_cmd_del_key(unsigned char vif_id, unsigned short key_index, const unsigned char *mac_addr)$/;"	f
+wlan_cmd_del_key	wlan_cmd.h	/^struct wlan_cmd_del_key$/;"	s
+wlan_cmd_del_whitelist	wlan_cmd.c	/^int wlan_cmd_del_whitelist(unsigned char vif_id, u8 *mac_addr)$/;"	f
+wlan_cmd_disable_whitelist	wlan_cmd.c	/^int wlan_cmd_disable_whitelist(unsigned char vif_id, u8 *mac_addr)$/;"	f
+wlan_cmd_disassoc	wlan_cmd.c	/^int wlan_cmd_disassoc(unsigned char vif_id, const unsigned char *mac_addr,$/;"	f
+wlan_cmd_disassoc	wlan_cmd.h	/^struct wlan_cmd_disassoc {$/;"	s
+wlan_cmd_disconnect	wlan_cmd.c	/^int wlan_cmd_disconnect(unsigned char vif_id, unsigned short reason_code)$/;"	f
+wlan_cmd_disconnect	wlan_cmd.h	/^struct wlan_cmd_disconnect$/;"	s
+wlan_cmd_disconnect_reason	wlan_cmd.h	/^enum wlan_cmd_disconnect_reason$/;"	g
+wlan_cmd_enable_whitelist	wlan_cmd.c	/^int wlan_cmd_enable_whitelist(unsigned char vif_id, u8 *mac_addr)$/;"	f
+wlan_cmd_ft_ies_params	wlan_cmd.h	/^struct wlan_cmd_ft_ies_params$/;"	s
+wlan_cmd_get_device_mode	wlan_cmd.h	/^struct wlan_cmd_get_device_mode$/;"	s
+wlan_cmd_get_ip	wlan_cmd.c	/^int wlan_cmd_get_ip(unsigned char vif_id, u8 *ip)$/;"	f
+wlan_cmd_get_ip	wlan_cmd.h	/^struct wlan_cmd_get_ip$/;"	s
+wlan_cmd_get_rssi	wlan_cmd.c	/^int wlan_cmd_get_rssi(unsigned char vif_id, unsigned char *signal, unsigned char *noise)$/;"	f
+wlan_cmd_get_txrate_txfailed	wlan_cmd.c	/^int wlan_cmd_get_txrate_txfailed(unsigned char vif_id, unsigned int *rate, unsigned int *failed)$/;"	f
+wlan_cmd_get_txrate_txfailed	wlan_cmd.h	/^struct wlan_cmd_get_txrate_txfailed$/;"	s
+wlan_cmd_hidden_ssid	wlan_cmd.h	/^struct wlan_cmd_hidden_ssid {$/;"	s
+wlan_cmd_init	wlan_cmd.c	/^int wlan_cmd_init(void )$/;"	f
+wlan_cmd_lock	wlan_cmd.c	/^int wlan_cmd_lock(wlan_cmd_t *cmd)$/;"	f
+wlan_cmd_mac_close	wlan_cmd.c	/^int wlan_cmd_mac_close(unsigned char vif_id, unsigned char mode)$/;"	f
+wlan_cmd_mac_close	wlan_cmd.h	/^struct wlan_cmd_mac_close$/;"	s
+wlan_cmd_mac_open	wlan_cmd.c	/^int wlan_cmd_mac_open(unsigned char vif_id, unsigned char mode, unsigned char *mac_addr)$/;"	f
+wlan_cmd_mac_open	wlan_cmd.h	/^struct wlan_cmd_mac_open$/;"	s
+wlan_cmd_mgmt_tx_t	wlan_cmd.h	/^struct wlan_cmd_mgmt_tx_t {$/;"	s
+wlan_cmd_npi_send_recv	wlan_cmd.c	/^int wlan_cmd_npi_send_recv(unsigned char *s_buf,unsigned short s_len, unsigned char *r_buf, unsigned short *r_len )$/;"	f
+wlan_cmd_p2p_ie_t	wlan_cmd.h	/^struct wlan_cmd_p2p_ie_t {$/;"	s
+wlan_cmd_pmkid	wlan_cmd.h	/^struct wlan_cmd_pmkid$/;"	s
+wlan_cmd_pmksa	wlan_cmd.c	/^int wlan_cmd_pmksa(unsigned char vif_id, const unsigned char *bssid, const unsigned char *pmkid, unsigned char type)$/;"	f
+wlan_cmd_register_frame	wlan_cmd.c	/^int wlan_cmd_register_frame(unsigned char vif_id, struct  wlan_cmd_register_frame_t *data)$/;"	f
+wlan_cmd_register_frame_t	wlan_cmd.h	/^struct wlan_cmd_register_frame_t {$/;"	s
+wlan_cmd_remain_chan	wlan_cmd.c	/^int wlan_cmd_remain_chan(unsigned char vif_id, struct ieee80211_channel *channel, $/;"	f
+wlan_cmd_remain_chan_t	wlan_cmd.h	/^struct wlan_cmd_remain_chan_t {$/;"	s
+wlan_cmd_req_lte_concur	wlan_cmd.c	/^int wlan_cmd_req_lte_concur(unsigned char vif_id, const unsigned char *val, int len)$/;"	f
+wlan_cmd_rsp_state_code	wlan_cmd.h	/^struct wlan_cmd_rsp_state_code$/;"	s
+wlan_cmd_scan	wlan_cmd.c	/^int wlan_cmd_scan(unsigned char vif_id, const unsigned char *ssid, const unsigned char *channels, int len)$/;"	f
+wlan_cmd_scan	wlan_cmd.h	/^struct wlan_cmd_scan$/;"	s
+wlan_cmd_scan_ssid	wlan_cmd.h	/^struct wlan_cmd_scan_ssid$/;"	s
+wlan_cmd_send_common_data	wlan_cmd.c	/^int wlan_cmd_send_common_data(unsigned char vif_id, u8 *data, int data_len)$/;"	f
+wlan_cmd_send_recv	wlan_cmd.c	/^int wlan_cmd_send_recv(unsigned char vif_id, unsigned char *pData, int len, int subtype, int timeout)$/;"	f
+wlan_cmd_send_to_ic	wlan_cmd.c	/^int wlan_cmd_send_to_ic(unsigned char vif_id, unsigned char *data, int len, int subtype)$/;"	f
+wlan_cmd_set_auth_type	wlan_cmd.c	/^int wlan_cmd_set_auth_type(unsigned char vif_id, unsigned int type)$/;"	f
+wlan_cmd_set_auth_type	wlan_cmd.h	/^struct wlan_cmd_set_auth_type$/;"	s
+wlan_cmd_set_bssid	wlan_cmd.c	/^int wlan_cmd_set_bssid(unsigned char vif_id, const unsigned char *addr)$/;"	f
+wlan_cmd_set_bssid	wlan_cmd.h	/^struct wlan_cmd_set_bssid$/;"	s
+wlan_cmd_set_cap	wlan_cmd.c	/^int wlan_cmd_set_cap(unsigned int cap)$/;"	f
+wlan_cmd_set_channel	wlan_cmd.c	/^int wlan_cmd_set_channel(unsigned char vif_id, unsigned int channel)$/;"	f
+wlan_cmd_set_channel	wlan_cmd.h	/^struct wlan_cmd_set_channel$/;"	s
+wlan_cmd_set_cipher	wlan_cmd.c	/^int wlan_cmd_set_cipher(unsigned char vif_id, unsigned int cipher, unsigned char cmd_id)$/;"	f
+wlan_cmd_set_cipher	wlan_cmd.h	/^struct wlan_cmd_set_cipher$/;"	s
+wlan_cmd_set_essid	wlan_cmd.c	/^int wlan_cmd_set_essid(unsigned char vif_id, const unsigned char *essid, int essid_len)$/;"	f
+wlan_cmd_set_essid	wlan_cmd.h	/^struct wlan_cmd_set_essid$/;"	s
+wlan_cmd_set_frag	wlan_cmd.c	/^int wlan_cmd_set_frag(unsigned char vif_id, unsigned short frag_threshold)$/;"	f
+wlan_cmd_set_frag	wlan_cmd.h	/^struct wlan_cmd_set_frag$/;"	s
+wlan_cmd_set_ft_ie	wlan_cmd.c	/^int wlan_cmd_set_ft_ie(unsigned char vif_id, const unsigned char *ies, unsigned short len)$/;"	f
+wlan_cmd_set_key	wlan_cmd.c	/^int wlan_cmd_set_key(unsigned char vif_id, unsigned char key_index)$/;"	f
+wlan_cmd_set_key	wlan_cmd.h	/^struct wlan_cmd_set_key$/;"	s
+wlan_cmd_set_key_management	wlan_cmd.c	/^int wlan_cmd_set_key_management(unsigned char vif_id, unsigned char key_mgmt)$/;"	f
+wlan_cmd_set_key_management	wlan_cmd.h	/^struct wlan_cmd_set_key_management$/;"	s
+wlan_cmd_set_p2p_ie	wlan_cmd.c	/^int wlan_cmd_set_p2p_ie(unsigned char vif_id, u8 type, const u8 *ie, u16 len)$/;"	f
+wlan_cmd_set_psk	wlan_cmd.c	/^int wlan_cmd_set_psk(unsigned char vif_id, const unsigned char *key, unsigned int key_len)$/;"	f
+wlan_cmd_set_psk	wlan_cmd.h	/^struct wlan_cmd_set_psk$/;"	s
+wlan_cmd_set_psm_cap	wlan_cmd.c	/^int wlan_cmd_set_psm_cap(void)$/;"	f
+wlan_cmd_set_regdom	wlan_cmd.c	/^int wlan_cmd_set_regdom(unsigned char vif_id, unsigned char *regdom, unsigned int len)$/;"	f
+wlan_cmd_set_rts	wlan_cmd.c	/^int wlan_cmd_set_rts(unsigned char vif_id, unsigned short rts_threshold)$/;"	f
+wlan_cmd_set_rts	wlan_cmd.h	/^struct wlan_cmd_set_rts$/;"	s
+wlan_cmd_set_tx_mgmt	wlan_cmd.c	/^int wlan_cmd_set_tx_mgmt(unsigned char vif_id,$/;"	f
+wlan_cmd_set_wpa_version	wlan_cmd.c	/^int wlan_cmd_set_wpa_version(unsigned char vif_id,  unsigned int wpa_version)$/;"	f
+wlan_cmd_set_wpa_version	wlan_cmd.h	/^struct wlan_cmd_set_wpa_version$/;"	s
+wlan_cmd_set_wps_ie	wlan_cmd.c	/^int wlan_cmd_set_wps_ie( unsigned char vif_id, unsigned char type, const unsigned char *ie, unsigned char len)$/;"	f
+wlan_cmd_sleep	wlan_cmd.c	/^int wlan_cmd_sleep(int ops)$/;"	f
+wlan_cmd_start_ap	wlan_cmd.c	/^int wlan_cmd_start_ap(unsigned char vif_id, unsigned char *beacon, unsigned short len)$/;"	f
+wlan_cmd_t	wlan_common.h	/^}wlan_cmd_t;$/;"	t	typeref:struct:__anon23
+wlan_cmd_unlock	wlan_cmd.c	/^void wlan_cmd_unlock(wlan_cmd_t *cmd)$/;"	f
+wlan_cmd_update_ft_ies	wlan_cmd.c	/^int wlan_cmd_update_ft_ies( unsigned char vif_id, struct cfg80211_update_ft_ies_params *ft_ies)$/;"	f
+wlan_cmd_whitelist	wlan_cmd.h	/^struct wlan_cmd_whitelist {$/;"	s
+wlan_cmd_wps_ie	wlan_cmd.h	/^struct wlan_cmd_wps_ie$/;"	s
+wlan_core	wlan_common.h	/^	wlan_thread_t       wlan_core;$/;"	m	struct:__anon28
+wlan_core_thread	wlan_core.c	/^static int wlan_core_thread(void *data)$/;"	f	file:
+wlan_early_suspend	wlan_core.c	/^static void wlan_early_suspend(struct early_suspend *es)$/;"	f	file:
+wlan_event_mic_failure	wlan_cmd.h	/^struct wlan_event_mic_failure {$/;"	s
+wlan_event_report_frame_t	wlan_cmd.h	/^struct wlan_event_report_frame_t {$/;"	s
+wlan_event_scan_rsp_t	wlan_cmd.h	/^}wlan_event_scan_rsp_t;$/;"	t	typeref:struct:__anon29
+wlan_genl_policy	wlan_npi.c	/^static struct nla_policy wlan_genl_policy[WLAN_NL_ATTR_MAX + 1] =$/;"	v	typeref:struct:nla_policy	file:
+wlan_hw_init	wlan_core.c	/^static int wlan_hw_init(hw_info_t *hw)$/;"	f	file:
+wlan_ieee80211_regdomain	wlan_cfg80211.h	/^}wlan_ieee80211_regdomain;$/;"	t	typeref:struct:__anon3
+wlan_inetaddr_event	wlan_core.c	/^static int wlan_inetaddr_event(struct notifier_block *this,$/;"	f	file:
+wlan_info_t	wlan_common.h	/^}wlan_info_t;$/;"	t	typeref:struct:__anon28
+wlan_ioctl	wlan_core.c	/^static int wlan_ioctl(struct net_device *ndev, struct ifreq *req, int cmd)$/;"	f	file:
+wlan_late_resume	wlan_core.c	/^static void wlan_late_resume(struct early_suspend *es)$/;"	f	file:
+wlan_lock	wlan_common.h	/^	struct wake_lock      wlan_lock;$/;"	m	struct:__anon21	typeref:struct:__anon21::wake_lock
+wlan_mode	wlan_cfg80211.h	/^enum wlan_mode $/;"	g
+wlan_module_exit	wlan_core.c	/^EXPORT_SYMBOL_GPL(wlan_module_exit);$/;"	v
+wlan_module_exit	wlan_core.c	/^int wlan_module_exit(struct device *dev)$/;"	f
+wlan_module_init	wlan_core.c	/^EXPORT_SYMBOL_GPL(wlan_module_init);$/;"	v
+wlan_module_init	wlan_core.c	/^int wlan_module_init(struct device *dev)$/;"	f
+wlan_nl_attrs	wlan_npi.c	/^enum wlan_nl_attrs$/;"	g	file:
+wlan_nl_commands	wlan_npi.c	/^enum wlan_nl_commands$/;"	g	file:
+wlan_nl_deinit	wlan_npi.c	/^void wlan_nl_deinit(void )$/;"	f
+wlan_nl_genl_family	wlan_npi.c	/^static struct genl_family wlan_nl_genl_family =$/;"	v	typeref:struct:genl_family	file:
+wlan_nl_get_info_handler	wlan_npi.c	/^static int wlan_nl_get_info_handler(struct sk_buff *skb_2,	 struct genl_info *info)$/;"	f	file:
+wlan_nl_init	wlan_npi.c	/^void wlan_nl_init(void )$/;"	f
+wlan_nl_npi_handler	wlan_npi.c	/^static int wlan_nl_npi_handler(struct sk_buff *skb_2,	 struct genl_info *info)$/;"	f	file:
+wlan_nl_ops	wlan_npi.c	/^static struct genl_ops wlan_nl_ops[] =$/;"	v	typeref:struct:genl_ops	file:
+wlan_nl_send_generic	wlan_npi.c	/^static int wlan_nl_send_generic(struct genl_info *info, u8 attr, u8 cmd, u32 len, u8 *data)$/;"	f	file:
+wlan_open	wlan_core.c	/^static int wlan_open(struct net_device *dev)$/;"	f	file:
+wlan_ops	wlan_core.c	/^struct net_device_ops wlan_ops = $/;"	v	typeref:struct:net_device_ops
+wlan_proc_fops	wlan_core.c	/^static const struct file_operations wlan_proc_fops = $/;"	v	typeref:struct:file_operations	file:
+wlan_proc_ioctl	wlan_core.c	/^static int wlan_proc_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+wlan_proc_open	wlan_core.c	/^static int wlan_proc_open(struct inode *inode, struct file *filp)$/;"	f	file:
+wlan_proc_release	wlan_core.c	/^static int wlan_proc_release(struct inode *inode, struct file *filp)$/;"	f	file:
+wlan_proc_write	wlan_core.c	/^static ssize_t wlan_proc_write(struct file *file, const char __user *buffer, size_t count, loff_t *pos)$/;"	f	file:
+wlan_report_mgmt_tx_status	wlan_cmd.h	/^struct wlan_report_mgmt_tx_status {$/;"	s
+wlan_rx	wlan_core.c	/^int wlan_rx(rxfifo_t *rx_fifo, int cnt)$/;"	f
+wlan_rx_buf_alloc	wlan_core.c	/^static int wlan_rx_buf_alloc(void)$/;"	f	file:
+wlan_rx_buf_decode	wlan_tcp.c	/^int wlan_rx_buf_decode(unsigned char *buf, unsigned int max_len)$/;"	f
+wlan_rx_buf_free	wlan_core.c	/^static int wlan_rx_buf_free(void )$/;"	f	file:
+wlan_rx_chn_isr	wlan_core.c	/^void wlan_rx_chn_isr(int chn)$/;"	f
+wlan_rx_event_process	wlan_cmd.c	/^int wlan_rx_event_process(const unsigned char vif_id, unsigned char event, unsigned char *pData, unsigned short len)$/;"	f
+wlan_rx_process	wlan_core.c	/^static int wlan_rx_process(unsigned char *buf, unsigned int max_len)$/;"	f	file:
+wlan_rx_rsp_process	wlan_cmd.c	/^int wlan_rx_rsp_process(const unsigned char vif_id, r_msg_hdr_t *msg)$/;"	f
+wlan_rx_skb_process	wlan_core.c	/^static int wlan_rx_skb_process(const unsigned char vif_id, unsigned char *pData, unsigned short len)$/;"	f	file:
+wlan_rx_wapi_decryption	wlan_wapi.c	/^unsigned short wlan_rx_wapi_decryption(wlan_vif_t *vif,$/;"	f
+wlan_rx_wapi_process	wlan_core.c	/^static int wlan_rx_wapi_process(const unsigned char vif_id, unsigned char *pData, unsigned short len)$/;"	f	file:
+wlan_scan_timeout	wlan_cfg80211.c	/^static void wlan_scan_timeout(unsigned long data)$/;"	f	file:
+wlan_send_common_data_to_ic	wlan_core.c	/^static int wlan_send_common_data_to_ic(struct net_device *ndev, struct ifreq *req)$/;"	f	file:
+wlan_set_regdom_params	wlan_cmd.h	/^struct wlan_set_regdom_params$/;"	s
+wlan_sleep	wlan_core.c	/^void wlan_sleep(void )$/;"	f
+wlan_state	wlan_cfg80211.h	/^enum wlan_state$/;"	g
+wlan_status	wlan_core.c	/^static struct net_device_stats *wlan_status(struct net_device *dev)$/;"	f	file:
+wlan_tcp_session_t	wlan_common.h	/^}wlan_tcp_session_t;$/;"	t	typeref:struct:__anon26
+wlan_tcpack_buf_free	wlan_tcp.c	/^int wlan_tcpack_buf_free(wlan_vif_t *vif)$/;"	f
+wlan_tcpack_buf_malloc	wlan_tcp.c	/^int wlan_tcpack_buf_malloc(wlan_vif_t *vif)$/;"	f
+wlan_tcpack_q	wlan_tcp.c	/^msg_q_t *wlan_tcpack_q(wlan_vif_t *vif, unsigned char *frame, unsigned int len)$/;"	f
+wlan_tcpack_tx	wlan_tcp.c	/^int wlan_tcpack_tx(wlan_vif_t *vif, int *done)$/;"	f
+wlan_thread_exit	wlan_core.c	/^static void wlan_thread_exit(void)$/;"	f	file:
+wlan_thread_t	wlan_common.h	/^}wlan_thread_t;$/;"	t	typeref:struct:__anon22
+wlan_timeout_recv_rsp	wlan_cmd.c	/^int wlan_timeout_recv_rsp(unsigned char *r_buf, unsigned short *r_len, unsigned int timeout)$/;"	f
+wlan_trans	wlan_common.h	/^	wlan_thread_t       wlan_trans;$/;"	m	struct:__anon28
+wlan_trans_thread	wlan_core.c	/^static int wlan_trans_thread(void *data)$/;"	f	file:
+wlan_tx	wlan_core.c	/^int wlan_tx(txfifo_t *tx_fifo, msg_q_t *msg_q, int cnt)$/;"	f
+wlan_tx_buf_decode	wlan_tcp.c	/^int wlan_tx_buf_decode(unsigned char *buf, unsigned int max_len)$/;"	f
+wlan_tx_chn_flush	wlan_core.c	/^static void wlan_tx_chn_flush(void)$/;"	f	file:
+wlan_tx_msg_q_alloc	wlan_core.c	/^static int wlan_tx_msg_q_alloc(wlan_vif_t *vif)$/;"	f	file:
+wlan_tx_msg_q_free	wlan_core.c	/^static int wlan_tx_msg_q_free(wlan_vif_t *vif)$/;"	f	file:
+wlan_tx_timeout	wlan_core.c	/^static void wlan_tx_timeout(struct net_device *dev)$/;"	f	file:
+wlan_tx_wapi_encryption	wlan_wapi.c	/^unsigned short wlan_tx_wapi_encryption(wlan_vif_t *vif,$/;"	f
+wlan_vif_free	wlan_cfg80211.c	/^int wlan_vif_free(wlan_vif_t *vif)$/;"	f
+wlan_vif_init	wlan_cfg80211.c	/^int wlan_vif_init(wlan_vif_t  *vif, int type, const char *name, void *ops)$/;"	f
+wlan_vif_t	wlan_common.h	/^}wlan_vif_t;$/;"	t	typeref:struct:__anon27
+wlan_wakeup	wlan_core.c	/^void wlan_wakeup(void )$/;"	f
+wlan_wiphy_free	wlan_cfg80211.c	/^int wlan_wiphy_free(wlan_info_t *wlan)$/;"	f
+wlan_wiphy_new	wlan_cfg80211.c	/^int wlan_wiphy_new(wlan_info_t *wlan)$/;"	f
+wlan_xmit	wlan_core.c	/^static int wlan_xmit(struct sk_buff *skb, struct net_device *dev)$/;"	f	file:
+work	wlan_common.h	/^	struct work_struct work;$/;"	m	struct:deauth_info	typeref:struct:deauth_info::work_struct
+work	wlan_common.h	/^    struct work_struct       work;$/;"	m	struct:__anon24	typeref:struct:__anon24::work_struct
+wpa_psk	wlan_cfg80211.h	/^	char wpa_psk[128];$/;"	m	struct:hostap_conf
+wpa_version	wlan_cmd.h	/^	unsigned int wpa_version;$/;"	m	struct:wlan_cmd_set_wpa_version
+wt	wlan_msg_q.h	/^	unsigned int   wt;$/;"	m	struct:__anon13
+wt_cnt	wlan_fifo.h	/^	unsigned int   wt_cnt;$/;"	m	struct:__anon9
+wt_cnt	wlan_msg_q.h	/^	unsigned int   wt_cnt;$/;"	m	struct:__anon13
+wt_lock	wlan_msg_q.h	/^	spinlock_t     wt_lock;$/;"	m	struct:__anon13
